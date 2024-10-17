@@ -1,0 +1,524 @@
+[2024-10-15T11:11:24.381552+00:00] main.ERROR: Error: Application is not installed yet.  [] []
+[2024-10-15T11:13:01.075973+00:00] main.ERROR: Error: Application is not installed yet.  [] []
+[2024-10-15T12:20:50.648513+00:00] main.ERROR: Error: Application is not installed yet.  [] []
+[2024-10-15T12:29:34.823250+00:00] main.ERROR: Error: Application is not installed yet.  [] []
+[2024-10-15T12:40:02.817944+00:00] main.ERROR: Error: Application is not installed yet.  [] []
+[2024-10-15T12:41:03.348486+00:00] main.ERROR: Error: Application is not installed yet.  [] []
+[2024-10-15T13:38:23.007174+00:00] main.ERROR: Parameter validation failed
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2024-10-15T13:38:30.364793+00:00] main.ERROR: Parameter validation failed
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2024-10-15T14:14:22.751615+00:00] main.ERROR: Parameter validation failed
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2024-10-15T14:19:07.935690+00:00] main.ERROR: Parameter validation failed
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2024-10-15T14:22:59.629447+00:00] main.ERROR: Parameter validation failed
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2024-10-15T14:28:16.187552+00:00] main.ERROR: Parameter validation failed
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2024-10-15T14:30:16.074313+00:00] main.ERROR: Parameter validation failed
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2024-10-15T14:36:06.559738+00:00] main.ERROR: Parameter validation failed
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2024-10-15T14:37:44.783679+00:00] main.ERROR: Parameter validation failed
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2024-10-15T14:40:57.256618+00:00] main.ERROR: Parameter validation failed
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2024-10-15T14:42:58.427191+00:00] main.ERROR: Parameter validation failed
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2024-10-15T15:05:16.019053+00:00] main.ERROR: Parameter validation failed
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2024-10-15T15:06:17.204878+00:00] main.ERROR: Missing following extensions: 'sodium'
+#0 [internal function]: Magento\Setup\Model\Installer->checkExtensions()
+#1 C:\www\git\project-community-edition\setup\src\Magento\Setup\Model\Installer.php(407): call_user_func_array(Array, Array)
+#2 C:\www\git\project-community-edition\setup\src\Magento\Setup\Console\Command\InstallCommand.php(237): Magento\Setup\Model\Installer->install(Array)
+#3 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#9 {main} [] []
+[2024-10-15T15:08:51.271544+00:00] main.ERROR: Missing following extensions: 'sodium'
+#0 [internal function]: Magento\Setup\Model\Installer->checkExtensions()
+#1 C:\www\git\project-community-edition\setup\src\Magento\Setup\Model\Installer.php(407): call_user_func_array(Array, Array)
+#2 C:\www\git\project-community-edition\setup\src\Magento\Setup\Console\Command\InstallCommand.php(237): Magento\Setup\Model\Installer->install(Array)
+#3 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#9 {main} [] []
+[2024-10-15T15:31:11.504305+00:00] main.ERROR: Current version of RDBMS is not supported. Used Version: 8.2.0. Supported versions: MySQL-8, MySQL-5.7, MariaDB-(10.2-10.6)
+#0 C:\www\git\project-community-edition\vendor\magento\framework\DB\Adapter\SqlVersionProvider.php(83): Magento\Framework\DB\Adapter\SqlVersionProvider->getVersionString('default')
+#1 C:\www\git\project-community-edition\vendor\magento\framework\DB\Adapter\SqlVersionProvider.php(138): Magento\Framework\DB\Adapter\SqlVersionProvider->getSqlVersion()
+#2 C:\www\git\project-community-edition\vendor\magento\framework\Setup\Declaration\Schema\Dto\Factories\Table.php(127): Magento\Framework\DB\Adapter\SqlVersionProvider->isMysqlGte8029()
+#3 C:\www\git\project-community-edition\vendor\magento\framework\Setup\Declaration\Schema\Dto\Factories\Table.php(97): Magento\Framework\Setup\Declaration\Schema\Dto\Factories\Table->getDefaultCharset()
+#4 C:\www\git\project-community-edition\vendor\magento\framework\Setup\Declaration\Schema\Dto\ElementFactory.php(88): Magento\Framework\Setup\Declaration\Schema\Dto\Factories\Table->create(Array)
+#5 C:\www\git\project-community-edition\vendor\magento\framework\Setup\Declaration\Schema\Declaration\SchemaBuilder.php(243): Magento\Framework\Setup\Declaration\Schema\Dto\ElementFactory->create('table', Array)
+#6 C:\www\git\project-community-edition\vendor\magento\framework\Setup\Declaration\Schema\Declaration\SchemaBuilder.php(150): Magento\Framework\Setup\Declaration\Schema\Declaration\SchemaBuilder->processTable(Object(Magento\Framework\Setup\Declaration\Schema\Dto\Schema), Array)
+#7 C:\www\git\project-community-edition\vendor\magento\framework\Setup\Declaration\Schema\SchemaConfig.php(78): Magento\Framework\Setup\Declaration\Schema\Declaration\SchemaBuilder->build(Object(Magento\Framework\Setup\Declaration\Schema\Dto\Schema))
+#8 C:\www\git\project-community-edition\setup\src\Magento\Setup\Model\DeclarationInstaller.php(57): Magento\Framework\Setup\Declaration\Schema\SchemaConfig->getDeclarationConfig()
+#9 C:\www\git\project-community-edition\setup\src\Magento\Setup\Model\Installer.php(868): Magento\Setup\Model\DeclarationInstaller->installSchema(Array)
+#10 C:\www\git\project-community-edition\setup\src\Magento\Setup\Model\Installer.php(916): Magento\Setup\Model\Installer->declarativeInstallSchema(Array)
+#11 [internal function]: Magento\Setup\Model\Installer->installSchema(Array)
+#12 C:\www\git\project-community-edition\setup\src\Magento\Setup\Model\Installer.php(407): call_user_func_array(Array, Array)
+#13 C:\www\git\project-community-edition\setup\src\Magento\Setup\Console\Command\InstallCommand.php(237): Magento\Setup\Model\Installer->install(Array)
+#14 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#20 {main} [] []
+[2024-10-15T15:36:21.933735+00:00] main.ERROR: Parameter validation failed
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2024-10-15T15:43:41.377732+00:00] main.INFO: Source table payment_services_order_status_data_production_submitted_hash does not exist. Skipping data migration... [] []
+[2024-10-15T15:44:37.865818+00:00] main.ERROR: Could not validate a connection to the OpenSearch. No alive nodes found in your cluster
+#0 C:\www\git\project-community-edition\setup\src\Magento\Setup\Model\SearchConfig.php(69): Magento\Setup\Model\SearchConfig->validateSearchEngine()
+#1 C:\www\git\project-community-edition\setup\src\Magento\Setup\Model\Installer.php(1206): Magento\Setup\Model\SearchConfig->saveConfiguration(Array)
+#2 [internal function]: Magento\Setup\Model\Installer->installSearchConfiguration(Array)
+#3 C:\www\git\project-community-edition\setup\src\Magento\Setup\Model\Installer.php(407): call_user_func_array(Array, Array)
+#4 C:\www\git\project-community-edition\setup\src\Magento\Setup\Console\Command\InstallCommand.php(237): Magento\Setup\Model\Installer->install(Array)
+#5 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2024-10-15T15:53:31.393549+00:00] main.ERROR: No arguments expected for "setup:install" command, got "bin/magento".
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Input\ArgvInput.php(89): Symfony\Component\Console\Input\ArgvInput->parseArgument('bin/magento')
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Input\ArgvInput.php(74): Symfony\Component\Console\Input\ArgvInput->parseToken('bin/magento', true)
+#2 C:\www\git\project-community-edition\vendor\symfony\console\Input\Input.php(56): Symfony\Component\Console\Input\ArgvInput->parse()
+#3 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(285): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#4 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#9 {main} [] []
+[2024-10-15T16:03:14.764587+00:00] main.ERROR: Search engine 'elasticsearch' is not an available search engine.
+#0 C:\www\git\project-community-edition\setup\src\Magento\Setup\Model\SearchConfig.php(62): Magento\Setup\Model\SearchConfig->validateSearchEngineSelection(Array)
+#1 C:\www\git\project-community-edition\setup\src\Magento\Setup\Model\Installer.php(1206): Magento\Setup\Model\SearchConfig->saveConfiguration(Array)
+#2 [internal function]: Magento\Setup\Model\Installer->installSearchConfiguration(Array)
+#3 C:\www\git\project-community-edition\setup\src\Magento\Setup\Model\Installer.php(407): call_user_func_array(Array, Array)
+#4 C:\www\git\project-community-edition\setup\src\Magento\Setup\Console\Command\InstallCommand.php(237): Magento\Setup\Model\Installer->install(Array)
+#5 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2024-10-16T07:01:03.632185+00:00] main.ERROR: No arguments expected for "setup:install" command, got "8.0--db-name=magento".
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Input\ArgvInput.php(89): Symfony\Component\Console\Input\ArgvInput->parseArgument('8.0--db-name=ma...')
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Input\ArgvInput.php(74): Symfony\Component\Console\Input\ArgvInput->parseToken('8.0--db-name=ma...', true)
+#2 C:\www\git\project-community-edition\vendor\symfony\console\Input\Input.php(56): Symfony\Component\Console\Input\ArgvInput->parse()
+#3 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(285): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#4 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#9 {main} [] []
+[2024-10-16T07:03:41.332628+00:00] main.ERROR: Parameter validation failed
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2024-10-16T08:46:28.790296+00:00] main.ERROR: Parameter validation failed
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2024-10-16T08:51:53.794248+00:00] main.ERROR: Parameter validation failed
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2024-10-16T08:58:03.287846+00:00] main.ERROR: Parameter validation failed
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2024-10-16T09:03:29.798253+00:00] main.ERROR: Could not validate a connection to Elasticsearch. No alive nodes found in your cluster
+#0 C:\www\git\project-community-edition\setup\src\Magento\Setup\Model\SearchConfig.php(69): Magento\Setup\Model\SearchConfig->validateSearchEngine()
+#1 C:\www\git\project-community-edition\setup\src\Magento\Setup\Model\Installer.php(1206): Magento\Setup\Model\SearchConfig->saveConfiguration(Array)
+#2 [internal function]: Magento\Setup\Model\Installer->installSearchConfiguration(Array)
+#3 C:\www\git\project-community-edition\setup\src\Magento\Setup\Model\Installer.php(407): call_user_func_array(Array, Array)
+#4 C:\www\git\project-community-edition\setup\src\Magento\Setup\Console\Command\InstallCommand.php(237): Magento\Setup\Model\Installer->install(Array)
+#5 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2024-10-16T09:11:58.468783+00:00] main.ERROR: Unable to apply data patch Magento\Theme\Setup\Patch\Data\RegisterThemes for module Magento_Theme. Original exception message: Wrong file
+#0 C:\www\git\project-community-edition\setup\src\Magento\Setup\Model\Installer.php(1093): Magento\Framework\Setup\Patch\PatchApplier->applyDataPatch('Magento_Theme')
+#1 C:\www\git\project-community-edition\setup\src\Magento\Setup\Model\Installer.php(965): Magento\Setup\Model\Installer->handleDBSchemaData(Object(Magento\Setup\Module\DataSetup), 'data', Array)
+#2 [internal function]: Magento\Setup\Model\Installer->installDataFixtures(Array)
+#3 C:\www\git\project-community-edition\setup\src\Magento\Setup\Model\Installer.php(407): call_user_func_array(Array, Array)
+#4 C:\www\git\project-community-edition\setup\src\Magento\Setup\Console\Command\InstallCommand.php(237): Magento\Setup\Model\Installer->install(Array)
+#5 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2024-10-16T10:43:22.417298+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-16T10:43:22.474472+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-16T10:43:22.822861+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-16T10:43:22.825754+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-16T10:43:22.921507+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2024-10-16T10:43:22.924875+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2024-10-16T10:43:22.967287+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2024-10-16T10:43:22.970478+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2024-10-16T10:43:23.016885+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2024-10-16T10:43:23.021208+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2024-10-16T10:43:23.612685+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2024-10-16T10:43:23.618244+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2024-10-16T10:43:27.747008+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2024-10-16T10:43:27.749764+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2024-10-16T10:43:27.798907+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2024-10-16T10:43:27.801528+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2024-10-16T10:43:27.944879+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2024-10-16T10:43:27.947620+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2024-10-16T10:43:28.741680+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2024-10-16T10:43:28.744610+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2024-10-16T10:43:29.311125+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2024-10-16T10:43:29.314479+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2024-10-16T10:43:29.362495+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2024-10-16T10:43:29.378779+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2024-10-16T10:43:31.106909+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2024-10-16T10:43:31.109967+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2024-10-16T10:43:32.798588+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/Magento_Theme/favicon.ico is wrong. [] []
+[2024-10-16T10:43:32.803348+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/Magento_Theme/favicon.ico is wrong. [] []
+[2024-10-16T10:44:11.724863+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2024-10-16T10:44:11.728295+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2024-10-16T10:44:11.806443+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2024-10-16T10:44:11.809647+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2024-10-16T10:44:12.408383+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2024-10-16T10:44:12.411258+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2024-10-16T10:44:12.588231+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-16T10:44:12.591410+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-16T10:44:12.630667+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-16T10:44:12.639306+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-16T10:44:13.112131+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2024-10-16T10:44:13.117396+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2024-10-16T10:44:14.986878+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2024-10-16T10:44:14.989534+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2024-10-16T10:44:15.550664+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2024-10-16T10:44:15.553095+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2024-10-16T10:44:15.561621+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2024-10-16T10:44:15.564076+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2024-10-16T10:44:15.868239+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2024-10-16T10:44:15.919218+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2024-10-16T10:44:16.057199+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2024-10-16T10:44:16.064406+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2024-10-16T10:44:16.394955+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2024-10-16T10:44:16.397629+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2024-10-16T10:44:16.883777+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2024-10-16T10:44:16.886335+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2024-10-16T10:44:43.847030+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-16T10:44:43.853720+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-16T10:44:44.146111+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2024-10-16T10:44:44.151170+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2024-10-16T10:44:44.215671+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2024-10-16T10:44:44.218865+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2024-10-16T10:44:44.235401+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-16T10:44:44.238045+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-16T10:44:44.459638+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2024-10-16T10:44:44.462478+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2024-10-16T10:44:45.019941+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2024-10-16T10:44:45.022334+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2024-10-16T10:44:47.052453+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2024-10-16T10:44:47.055485+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2024-10-16T10:44:47.397050+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2024-10-16T10:44:47.399618+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2024-10-16T10:44:47.531093+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2024-10-16T10:44:47.553090+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2024-10-16T10:44:47.881890+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2024-10-16T10:44:47.884657+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2024-10-16T10:44:47.930093+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2024-10-16T10:44:47.932694+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2024-10-16T10:44:48.197338+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2024-10-16T10:44:48.199924+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2024-10-16T10:44:49.133770+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2024-10-16T10:44:49.136519+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2024-10-16T12:21:02.136275+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2024-10-16T12:21:02.143976+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2024-10-16T12:21:03.622151+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2024-10-16T12:21:03.625792+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2024-10-16T12:21:04.650110+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-16T12:21:04.654415+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-16T12:21:04.931019+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-16T12:21:04.934271+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-16T12:21:04.969568+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2024-10-16T12:21:04.973323+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2024-10-16T12:21:05.176095+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2024-10-16T12:21:05.186306+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2024-10-16T12:21:06.866803+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2024-10-16T12:21:06.869533+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2024-10-16T12:21:09.749758+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2024-10-16T12:21:09.752652+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2024-10-16T12:21:10.106343+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2024-10-16T12:21:10.130505+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2024-10-16T12:21:10.426670+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2024-10-16T12:21:10.428990+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2024-10-16T12:21:10.441036+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2024-10-16T12:21:10.529245+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2024-10-16T12:21:10.767371+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2024-10-16T12:21:10.771572+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2024-10-16T12:21:11.099791+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2024-10-16T12:21:11.110197+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2024-10-16T12:32:28.529547+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2024-10-16T12:32:28.540803+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2024-10-16T12:32:28.564547+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2024-10-16T12:32:28.573200+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2024-10-16T12:32:28.613179+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2024-10-16T12:32:28.618715+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2024-10-16T12:32:28.708844+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2024-10-16T12:32:28.712153+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2024-10-16T12:32:28.627178+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-16T12:32:28.748452+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-16T12:32:29.455426+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2024-10-16T12:32:29.459223+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2024-10-16T12:32:32.417958+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-16T12:32:32.421423+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-16T12:32:32.624441+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2024-10-16T12:32:32.633598+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2024-10-16T12:32:32.654598+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2024-10-16T12:32:32.657103+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2024-10-16T12:32:33.001248+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2024-10-16T12:32:33.003744+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2024-10-16T12:32:33.042793+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2024-10-16T12:32:33.045430+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2024-10-16T12:32:33.138940+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2024-10-16T12:32:33.141358+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2024-10-16T12:32:34.128175+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2024-10-16T12:32:34.130735+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2024-10-16T12:41:02.950887+00:00] main.ERROR: Sample Data error: Warning: file_get_contents(C:/www/git/project-community-edition/pub/media/downloadable/files/links/l/u/luma_background_-_model_against_fence_4_sec_.mp4): Failed to open stream: No such file or directory in C:\www\git\project-community-edition\vendor\magento\module-downloadable-sample-data\Model\Product\Converter.php on line 132 [] []
+[2024-10-16T13:05:03.272152+00:00] main.ERROR: Warning: file_put_contents(C:/www/git/project-community-edition/generated/metadata/primary|global|plugin-list.php): Failed to open stream: No such file or directory in C:\www\git\project-community-edition\vendor\magento\framework\Interception\PluginListGenerator.php on line 411
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'file_put_conten...', 'C:\\www\\git\\proj...', 411)
+#1 C:\www\git\project-community-edition\vendor\magento\framework\Interception\PluginListGenerator.php(411): file_put_contents('C:/www/git/proj...', '<?php return ar...')
+#2 C:\www\git\project-community-edition\vendor\magento\framework\Interception\PluginListGenerator.php(180): Magento\Framework\Interception\PluginListGenerator->writeConfig('primary|global|...', Array)
+#3 C:\www\git\project-community-edition\setup\src\Magento\Setup\Module\Di\App\Task\Operation\PluginListGenerator.php(53): Magento\Framework\Interception\PluginListGenerator->write(Array)
+#4 C:\www\git\project-community-edition\setup\src\Magento\Setup\Module\Di\App\Task\Manager.php(56): Magento\Setup\Module\Di\App\Task\Operation\PluginListGenerator->doOperation()
+#5 C:\www\git\project-community-edition\setup\src\Magento\Setup\Console\Command\DiCompileCommand.php(209): Magento\Setup\Module\Di\App\Task\Manager->process(Object(Closure), Object(Closure))
+#6 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(326): Magento\Setup\Console\Command\DiCompileCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\DiCompileCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#12 {main} [] []
+[2024-10-16T13:26:18.373837+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2024-10-16T13:26:18.376649+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2024-10-16T13:26:22.411777+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2024-10-16T13:26:22.416320+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2024-10-16T13:26:24.725266+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2024-10-16T13:26:24.732413+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2024-10-16T13:26:25.349337+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-16T13:26:25.352305+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-16T13:26:26.831353+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2024-10-16T13:26:26.834101+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2024-10-16T13:26:27.179378+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2024-10-16T13:26:27.182174+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2024-10-16T13:26:29.280932+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2024-10-16T13:26:29.283973+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2024-10-16T13:26:29.789076+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2024-10-16T13:26:29.791740+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2024-10-16T13:26:30.778813+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2024-10-16T13:26:30.785820+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2024-10-16T13:26:32.011301+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2024-10-16T13:26:32.014704+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2024-10-16T13:26:34.458296+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-16T13:26:34.477051+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-16T13:26:47.194014+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2024-10-16T13:26:47.198160+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2024-10-16T13:26:48.148336+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2024-10-16T13:26:48.151160+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2024-10-16T13:26:48.984371+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/Magento_Theme/favicon.ico is wrong. [] []
+[2024-10-16T13:26:48.987120+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/Magento_Theme/favicon.ico is wrong. [] []
+[2024-10-16T13:27:11.853915+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2024-10-16T13:27:11.856509+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2024-10-16T13:27:12.362461+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2024-10-16T13:27:12.365348+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2024-10-16T13:27:12.965606+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-16T13:27:12.979234+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-16T13:27:14.122414+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2024-10-16T13:27:14.127575+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2024-10-16T13:27:14.737449+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-16T13:27:14.740492+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-16T13:27:15.565685+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2024-10-16T13:27:15.570258+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2024-10-16T13:27:16.118819+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2024-10-16T13:27:16.141654+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2024-10-16T13:27:17.023444+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2024-10-16T13:27:17.026098+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2024-10-16T13:27:17.353687+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2024-10-16T13:27:17.357176+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2024-10-16T13:27:18.836719+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2024-10-16T13:27:18.839931+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2024-10-16T13:27:19.995537+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2024-10-16T13:27:19.998335+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2024-10-16T13:27:27.413704+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2024-10-16T13:27:27.416580+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2024-10-16T13:27:27.468209+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2024-10-16T13:27:27.474641+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2024-10-16T14:41:42.091749+00:00] main.ERROR: Warning: file_put_contents(C:/www/git/project-community-edition/generated/metadata/primary|global|plugin-list.php): Failed to open stream: No such file or directory in C:\www\git\project-community-edition\vendor\magento\framework\Interception\PluginListGenerator.php on line 411
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'file_put_conten...', 'C:\\www\\git\\proj...', 411)
+#1 C:\www\git\project-community-edition\vendor\magento\framework\Interception\PluginListGenerator.php(411): file_put_contents('C:/www/git/proj...', '<?php return ar...')
+#2 C:\www\git\project-community-edition\vendor\magento\framework\Interception\PluginListGenerator.php(180): Magento\Framework\Interception\PluginListGenerator->writeConfig('primary|global|...', Array)
+#3 C:\www\git\project-community-edition\setup\src\Magento\Setup\Module\Di\App\Task\Operation\PluginListGenerator.php(53): Magento\Framework\Interception\PluginListGenerator->write(Array)
+#4 C:\www\git\project-community-edition\setup\src\Magento\Setup\Module\Di\App\Task\Manager.php(56): Magento\Setup\Module\Di\App\Task\Operation\PluginListGenerator->doOperation()
+#5 C:\www\git\project-community-edition\setup\src\Magento\Setup\Console\Command\DiCompileCommand.php(209): Magento\Setup\Module\Di\App\Task\Manager->process(Object(Closure), Object(Closure))
+#6 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(326): Magento\Setup\Console\Command\DiCompileCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\DiCompileCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#12 {main} [] []
+[2024-10-16T14:41:57.719055+00:00] main.ERROR: Command "admin:user:change-password" is not defined.
+
+Did you mean one of these?
+    admin:user:create
+    admin:user:unlock
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(266): Symfony\Component\Console\Application->find('admin:user:chan...')
+#1 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2024-10-16T14:56:24.510300+00:00] main.ERROR: Command "admin:user:change-password" is not defined.
+
+Did you mean one of these?
+    admin:user:create
+    admin:user:unlock
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(266): Symfony\Component\Console\Application->find('admin:user:chan...')
+#1 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2024-10-16T15:34:28.132305+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2024-10-16T15:34:28.196267+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2024-10-16T15:34:28.387087+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-16T15:34:28.481328+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2024-10-16T15:34:28.485005+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2024-10-16T15:34:28.517845+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-16T15:34:28.560100+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2024-10-16T15:34:28.563367+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2024-10-16T15:34:28.583684+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-16T15:34:28.587587+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-16T15:34:28.618285+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2024-10-16T15:34:28.623635+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2024-10-16T15:34:31.866251+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2024-10-16T15:34:31.869344+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2024-10-16T15:34:32.110510+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2024-10-16T15:34:32.113158+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2024-10-16T15:34:32.390647+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2024-10-16T15:34:32.393081+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2024-10-16T15:34:32.880251+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2024-10-16T15:34:32.882874+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2024-10-16T15:34:33.170125+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2024-10-16T15:34:33.172674+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2024-10-16T15:34:33.182841+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2024-10-16T15:34:33.186191+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2024-10-16T15:34:35.504932+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2024-10-16T15:34:35.567823+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2024-10-16T15:34:37.474184+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/Magento_Theme/favicon.ico is wrong. [] []
+[2024-10-16T15:34:37.476474+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/Magento_Theme/favicon.ico is wrong. [] []
