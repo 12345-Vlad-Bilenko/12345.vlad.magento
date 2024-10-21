@@ -522,3 +522,520 @@ Did you mean one of these?
 [2024-10-16T15:34:35.567823+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
 [2024-10-16T15:34:37.474184+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/Magento_Theme/favicon.ico is wrong. [] []
 [2024-10-16T15:34:37.476474+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/Magento_Theme/favicon.ico is wrong. [] []
+[2024-10-18T07:19:28.975155+00:00] main.ERROR: There are no commands defined in the "ordertoxml" namespace.
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(720): Symfony\Component\Console\Application->findNamespace('ordertoxml')
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(266): Symfony\Component\Console\Application->find('ordertoxml:gene...')
+#2 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2024-10-18T07:26:13.461683+00:00] main.ERROR: There are no commands defined in the "ordertoxml" namespace.
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(720): Symfony\Component\Console\Application->findNamespace('ordertoxml')
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(266): Symfony\Component\Console\Application->find('ordertoxml:gene...')
+#2 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2024-10-18T08:16:01.325757+00:00] main.ERROR: The "--name" option does not exist.
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Input\ArgvInput.php(152): Symfony\Component\Console\Input\ArgvInput->addLongOption('name', NULL)
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Input\ArgvInput.php(85): Symfony\Component\Console\Input\ArgvInput->parseLongOption('--name')
+#2 C:\www\git\project-community-edition\vendor\symfony\console\Input\ArgvInput.php(74): Symfony\Component\Console\Input\ArgvInput->parseToken('--name', true)
+#3 C:\www\git\project-community-edition\vendor\symfony\console\Input\Input.php(56): Symfony\Component\Console\Input\ArgvInput->parse()
+#4 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(285): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#5 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(58): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(138): Stagem\OrderToXml\Console\GenerateXml\Interceptor->___callParent('run', Array)
+#7 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(153): Stagem\OrderToXml\Console\GenerateXml\Interceptor->Magento\Framework\Interception\{closure}(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\www\git\project-community-edition\generated\code\Stagem\OrderToXml\Console\GenerateXml\Interceptor.php(77): Stagem\OrderToXml\Console\GenerateXml\Interceptor->___callPlugins('run', Array, Array)
+#9 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Stagem\OrderToXml\Console\GenerateXml\Interceptor->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Stagem\OrderToXml\Console\GenerateXml\Interceptor), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#14 {main} [] []
+[2024-10-18T08:21:09.699502+00:00] main.ERROR: The "--name" option does not exist.
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Input\ArgvInput.php(152): Symfony\Component\Console\Input\ArgvInput->addLongOption('name', NULL)
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Input\ArgvInput.php(85): Symfony\Component\Console\Input\ArgvInput->parseLongOption('--name')
+#2 C:\www\git\project-community-edition\vendor\symfony\console\Input\ArgvInput.php(74): Symfony\Component\Console\Input\ArgvInput->parseToken('--name', true)
+#3 C:\www\git\project-community-edition\vendor\symfony\console\Input\Input.php(56): Symfony\Component\Console\Input\ArgvInput->parse()
+#4 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(285): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#5 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(58): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(138): Stagem\OrderToXml\Console\GenerateXml\Interceptor->___callParent('run', Array)
+#7 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(153): Stagem\OrderToXml\Console\GenerateXml\Interceptor->Magento\Framework\Interception\{closure}(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\www\git\project-community-edition\generated\code\Stagem\OrderToXml\Console\GenerateXml\Interceptor.php(77): Stagem\OrderToXml\Console\GenerateXml\Interceptor->___callPlugins('run', Array, Array)
+#9 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Stagem\OrderToXml\Console\GenerateXml\Interceptor->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Stagem\OrderToXml\Console\GenerateXml\Interceptor), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#14 {main} [] []
+[2024-10-18T08:23:37.347077+00:00] main.ERROR: The "-" option does not exist.
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Input\ArgvInput.php(107): Symfony\Component\Console\Input\ArgvInput->parseShortOptionSet('vvv\r')
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Input\ArgvInput.php(87): Symfony\Component\Console\Input\ArgvInput->parseShortOption('-vvv\r')
+#2 C:\www\git\project-community-edition\vendor\symfony\console\Input\ArgvInput.php(74): Symfony\Component\Console\Input\ArgvInput->parseToken('-vvv\r', true)
+#3 C:\www\git\project-community-edition\vendor\symfony\console\Input\Input.php(56): Symfony\Component\Console\Input\ArgvInput->parse()
+#4 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(285): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#5 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(58): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(138): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->___callParent('run', Array)
+#7 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(153): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->Magento\Framework\Interception\{closure}(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\www\git\project-community-edition\generated\code\Magento\Backend\Console\Command\CacheCleanCommand\Interceptor.php(77): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->___callPlugins('run', Array, Array)
+#9 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Backend\Console\Command\CacheCleanCommand\Interceptor), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#14 {main} [] []
+[2024-10-18T08:31:14.846259+00:00] main.ERROR: The "--name" option does not exist.
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Input\ArgvInput.php(152): Symfony\Component\Console\Input\ArgvInput->addLongOption('name', NULL)
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Input\ArgvInput.php(85): Symfony\Component\Console\Input\ArgvInput->parseLongOption('--name')
+#2 C:\www\git\project-community-edition\vendor\symfony\console\Input\ArgvInput.php(74): Symfony\Component\Console\Input\ArgvInput->parseToken('--name', true)
+#3 C:\www\git\project-community-edition\vendor\symfony\console\Input\Input.php(56): Symfony\Component\Console\Input\ArgvInput->parse()
+#4 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(285): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#5 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(58): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(138): Stagem\OrderToXml\Console\GenerateXml\Interceptor->___callParent('run', Array)
+#7 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(153): Stagem\OrderToXml\Console\GenerateXml\Interceptor->Magento\Framework\Interception\{closure}(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\www\git\project-community-edition\generated\code\Stagem\OrderToXml\Console\GenerateXml\Interceptor.php(77): Stagem\OrderToXml\Console\GenerateXml\Interceptor->___callPlugins('run', Array, Array)
+#9 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Stagem\OrderToXml\Console\GenerateXml\Interceptor->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Stagem\OrderToXml\Console\GenerateXml\Interceptor), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#14 {main} [] []
+[2024-10-18T08:37:50.848011+00:00] main.ERROR: The "-" option does not exist.
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Input\ArgvInput.php(107): Symfony\Component\Console\Input\ArgvInput->parseShortOptionSet('vvv\r')
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Input\ArgvInput.php(87): Symfony\Component\Console\Input\ArgvInput->parseShortOption('-vvv\r')
+#2 C:\www\git\project-community-edition\vendor\symfony\console\Input\ArgvInput.php(74): Symfony\Component\Console\Input\ArgvInput->parseToken('-vvv\r', true)
+#3 C:\www\git\project-community-edition\vendor\symfony\console\Input\Input.php(56): Symfony\Component\Console\Input\ArgvInput->parse()
+#4 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(285): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#5 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(58): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(138): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->___callParent('run', Array)
+#7 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(153): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->Magento\Framework\Interception\{closure}(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\www\git\project-community-edition\generated\code\Magento\Backend\Console\Command\CacheCleanCommand\Interceptor.php(77): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->___callPlugins('run', Array, Array)
+#9 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Backend\Console\Command\CacheCleanCommand\Interceptor), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#14 {main} [] []
+[2024-10-18T09:40:34.408875+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+
+[2024-10-18T09:40:34.410563+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-18T09:40:34.465565+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+s wrong. [] []
+[2024-10-18T09:40:34.466658+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2024-10-18T09:40:36.681214+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2024-10-18T09:40:36.686359+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2024-10-18T09:40:38.287235+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2024-10-18T09:40:38.290142+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2024-10-18T09:40:39.247872+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-18T09:40:39.251366+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-18T09:40:40.586595+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2024-10-18T09:40:40.590330+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2024-10-18T09:40:40.734227+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2024-10-18T09:40:40.737014+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2024-10-18T09:40:41.932294+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2024-10-18T09:40:41.935483+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2024-10-18T09:40:42.180600+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2024-10-18T09:40:42.184630+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2024-10-18T09:40:43.750490+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2024-10-18T09:40:43.759613+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2024-10-18T09:40:43.963196+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2024-10-18T09:40:43.966550+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2024-10-18T09:40:45.482050+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2024-10-18T09:40:45.484931+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2024-10-18T09:40:46.971727+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/Magento_Theme/favicon.ico is wrong. [] []
+[2024-10-18T09:40:46.975345+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/Magento_Theme/favicon.ico is wrong. [] []
+[2024-10-18T09:46:41.772063+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ytheme-magento.css is wrong. [] []
+[2024-10-18T09:46:41.780634+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ytheme-magento.css is wrong. [] []
+[2024-10-18T09:46:42.053874+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-18T09:46:42.057454+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-18T09:46:42.293081+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/jquery/jstree/themes/default/style.css is wrong. [] []
+[2024-10-18T09:46:42.303779+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/jquery/jstree/themes/default/style.css is wrong. [] []
+[2024-10-18T09:46:42.624158+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/css/styles.css is wrong. [] []
+[2024-10-18T09:46:42.627566+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/css/styles.css is wrong. [] []
+[2024-10-18T09:46:42.652273+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ext-all.css is wrong. [] []
+[2024-10-18T09:46:42.656267+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ext-all.css is wrong. [] []
+[2024-10-18T09:46:44.911960+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/requirejs/require.js is wrong. [] []
+[2024-10-18T09:46:44.917473+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/requirejs/require.js is wrong. [] []
+[2024-10-18T09:46:45.565880+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-18T09:46:45.568283+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-18T09:46:45.736055+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/images/magento-logo.svg is wrong. [] []
+[2024-10-18T09:46:45.758423+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/images/magento-logo.svg is wrong. [] []
+[2024-10-18T09:46:46.387436+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/Magento_ReCaptchaUser/css/recaptcha.css is wrong. [] []
+[2024-10-18T09:46:46.392653+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/Magento_ReCaptchaUser/css/recaptcha.css is wrong. [] []
+[2024-10-18T09:46:48.169719+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/Magento_Theme/favicon.ico is wrong. [] []
+[2024-10-18T09:46:48.172478+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/Magento_Theme/favicon.ico is wrong. [] []
+[2024-10-18T10:25:31.756073+00:00] main.ERROR: The "-" option does not exist.
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Input\ArgvInput.php(107): Symfony\Component\Console\Input\ArgvInput->parseShortOptionSet('vvv\r')
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Input\ArgvInput.php(87): Symfony\Component\Console\Input\ArgvInput->parseShortOption('-vvv\r')
+#2 C:\www\git\project-community-edition\vendor\symfony\console\Input\ArgvInput.php(74): Symfony\Component\Console\Input\ArgvInput->parseToken('-vvv\r', true)
+#3 C:\www\git\project-community-edition\vendor\symfony\console\Input\Input.php(56): Symfony\Component\Console\Input\ArgvInput->parse()
+#4 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(285): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#5 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\UpgradeCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#10 {main} [] []
+[2024-10-18T10:25:35.615678+00:00] main.ERROR: The "-" option does not exist.
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Input\ArgvInput.php(107): Symfony\Component\Console\Input\ArgvInput->parseShortOptionSet('vvv\r')
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Input\ArgvInput.php(87): Symfony\Component\Console\Input\ArgvInput->parseShortOption('-vvv\r')
+#2 C:\www\git\project-community-edition\vendor\symfony\console\Input\ArgvInput.php(74): Symfony\Component\Console\Input\ArgvInput->parseToken('-vvv\r', true)
+#3 C:\www\git\project-community-edition\vendor\symfony\console\Input\Input.php(56): Symfony\Component\Console\Input\ArgvInput->parse()
+#4 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(285): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#5 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\DeployStaticContentCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#10 {main} [] []
+[2024-10-18T10:30:46.486839+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ext-all.css is wrong. [] []
+[2024-10-18T10:30:46.498712+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ext-all.css is wrong. [] []
+[2024-10-18T10:30:49.124812+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ytheme-magento.css is wrong. [] []
+[2024-10-18T10:30:49.129834+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ytheme-magento.css is wrong. [] []
+[2024-10-18T10:30:50.795039+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-18T10:30:50.798603+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-18T10:30:53.242154+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/jquery/jstree/themes/default/style.css is wrong. [] []
+[2024-10-18T10:30:53.245395+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/jquery/jstree/themes/default/style.css is wrong. [] []
+[2024-10-18T10:30:56.430387+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/css/styles.css is wrong. [] []
+[2024-10-18T10:30:56.433240+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/css/styles.css is wrong. [] []
+[2024-10-18T10:30:58.751622+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/Magento_ReCaptchaUser/css/recaptcha.css is wrong. [] []
+[2024-10-18T10:30:58.755001+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/Magento_ReCaptchaUser/css/recaptcha.css is wrong. [] []
+[2024-10-18T10:30:58.949657+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/requirejs/require.js is wrong. [] []
+[2024-10-18T10:30:58.953806+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/requirejs/require.js is wrong. [] []
+[2024-10-18T10:30:59.580915+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-18T10:30:59.584600+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-18T10:31:00.110961+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ext-all.css is wrong. [] []
+[2024-10-18T10:31:00.114353+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ext-all.css is wrong. [] []
+[2024-10-18T10:31:00.574668+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ytheme-magento.css is wrong. [] []
+[2024-10-18T10:31:00.577616+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ytheme-magento.css is wrong. [] []
+[2024-10-18T10:31:01.700279+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-18T10:31:01.710270+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-18T10:31:02.460238+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/images/magento-logo.svg is wrong. [] []
+[2024-10-18T10:31:02.474958+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/images/magento-logo.svg is wrong. [] []
+[2024-10-18T10:31:50.970909+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2024-10-18T10:31:50.978824+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2024-10-18T10:31:53.114552+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-18T10:31:53.121926+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-18T10:31:53.193831+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2024-10-18T10:31:53.196300+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2024-10-18T10:31:53.648744+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-18T10:31:53.699362+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-18T10:31:54.062427+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2024-10-18T10:31:54.065137+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2024-10-18T10:31:56.211595+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2024-10-18T10:31:56.218962+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2024-10-18T10:31:59.103232+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2024-10-18T10:31:59.106001+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2024-10-18T10:31:59.168468+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2024-10-18T10:31:59.170581+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2024-10-18T10:31:59.172917+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2024-10-18T10:31:59.180157+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2024-10-18T10:32:00.537823+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2024-10-18T10:32:00.542458+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2024-10-18T10:32:01.296368+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2024-10-18T10:32:01.299411+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2024-10-18T10:32:02.271893+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2024-10-18T10:32:02.274842+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2024-10-18T10:32:02.636100+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2024-10-18T10:32:02.641348+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2024-10-18T10:32:44.088930+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-18T10:32:44.094239+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-18T10:32:44.617017+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ext-all.css is wrong. [] []
+[2024-10-18T10:32:44.625595+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ext-all.css is wrong. [] []
+[2024-10-18T10:32:44.698050+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ytheme-magento.css is wrong. [] []
+[2024-10-18T10:32:44.702067+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ytheme-magento.css is wrong. [] []
+[2024-10-18T10:32:46.086781+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/css/styles.css is wrong. [] []
+[2024-10-18T10:32:46.089269+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/css/styles.css is wrong. [] []
+[2024-10-18T10:32:46.115182+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/jquery/jstree/themes/default/style.css is wrong. [] []
+[2024-10-18T10:32:46.122678+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/jquery/jstree/themes/default/style.css is wrong. [] []
+[2024-10-18T10:32:47.536225+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/requirejs/require.js is wrong. [] []
+[2024-10-18T10:32:47.538913+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/requirejs/require.js is wrong. [] []
+[2024-10-18T10:32:47.547257+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-18T10:32:47.553619+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-18T10:32:49.036573+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/images/magento-icon.svg is wrong. [] []
+[2024-10-18T10:32:49.040822+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/images/magento-icon.svg is wrong. [] []
+[2024-10-18T10:37:21.544973+00:00] main.ERROR: Command "setup:upgrade" is not defined.
+
+Did you mean one of these?
+    setup:backup
+    setup:config:set
+    setup:db-data:upgrade
+    setup:db-declaration:generate-patch
+    setup:db-declaration:generate-whitelist
+    setup:db-schema:upgrade
+    setup:db:status
+    setup:di:compile
+    setup:install
+    setup:performance:generate-fixtures
+    setup:rollback
+    setup:static-content:deploy
+    setup:store-config:set
+    setup:uninstall
+    setup:upgrade
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(266): Symfony\Component\Console\Application->find('setup:upgrade\r')
+#1 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2024-10-18T10:37:24.829764+00:00] main.ERROR: en_US argument has invalid value, please run info:language:list for list of available locales
+#0 C:\www\git\project-community-edition\vendor\magento\module-deploy\Console\InputValidator.php(98): Magento\Deploy\Console\InputValidator->checkLanguagesInput(Array, Array)
+#1 C:\www\git\project-community-edition\setup\src\Magento\Setup\Console\Command\DeployStaticContentCommand.php(113): Magento\Deploy\Console\InputValidator->validate(Object(Symfony\Component\Console\Input\ArgvInput))
+#2 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(326): Magento\Setup\Console\Command\DeployStaticContentCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\DeployStaticContentCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#8 {main} [] []
+[2024-10-18T10:42:35.834287+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2024-10-18T10:42:35.837280+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2024-10-18T10:42:36.417332+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2024-10-18T10:42:36.423751+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2024-10-18T10:42:38.044278+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-18T10:42:38.047105+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-18T10:42:39.841828+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2024-10-18T10:42:39.844786+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2024-10-18T10:42:40.559123+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-18T10:42:40.561566+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-18T10:42:42.483177+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2024-10-18T10:42:42.485627+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2024-10-18T10:42:44.729313+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2024-10-18T10:42:44.732113+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2024-10-18T10:42:50.170790+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2024-10-18T10:42:50.174592+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2024-10-18T10:42:53.816093+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2024-10-18T10:42:53.818851+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2024-10-18T10:42:54.699558+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ext-all.css is wrong. [] []
+[2024-10-18T10:42:54.702308+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ext-all.css is wrong. [] []
+[2024-10-18T10:42:55.162439+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ytheme-magento.css is wrong. [] []
+[2024-10-18T10:42:55.165322+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ytheme-magento.css is wrong. [] []
+[2024-10-18T10:42:56.145694+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-18T10:42:56.149161+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-18T10:42:57.792929+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/jquery/jstree/themes/default/style.css is wrong. [] []
+[2024-10-18T10:42:57.832930+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/jquery/jstree/themes/default/style.css is wrong. [] []
+[2024-10-18T10:42:58.192910+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/css/styles.css is wrong. [] []
+[2024-10-18T10:42:58.196438+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/css/styles.css is wrong. [] []
+[2024-10-18T10:42:58.411919+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2024-10-18T10:42:58.414441+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2024-10-18T10:42:59.273993+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/requirejs/require.js is wrong. [] []
+[2024-10-18T10:42:59.276676+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/requirejs/require.js is wrong. [] []
+[2024-10-18T10:43:00.907543+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-18T10:43:00.911349+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-18T10:43:00.945501+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2024-10-18T10:43:00.949919+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2024-10-18T10:43:00.988468+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/images/magento-icon.svg is wrong. [] []
+[2024-10-18T10:43:00.991834+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/images/magento-icon.svg is wrong. [] []
+[2024-10-18T10:43:02.885947+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2024-10-18T10:43:02.888849+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2024-10-18T10:43:02.956673+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2024-10-18T10:43:02.960363+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2024-10-18T13:04:51.182437+00:00] main.CRITICAL: Type Error occurred when creating object: Stagem\OrderToXml\Console\GenerateXml\Interceptor, Stagem\OrderToXml\Console\GenerateXml::__construct(): Argument #1 ($orderRepository) must be of type Magento\Sales\Api\OrderRepositoryInterface, null given, called in C:\www\git\project-community-edition\generated\code\Stagem\OrderToXml\Console\GenerateXml\Interceptor.php on line 14 [] []
+[2024-10-18T13:04:51.538423+00:00] main.ERROR: There are no commands defined in the "ordertoxml" namespace.
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(720): Symfony\Component\Console\Application->findNamespace('ordertoxml')
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(266): Symfony\Component\Console\Application->find('ordertoxml:gene...')
+#2 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2024-10-18T13:05:25.288508+00:00] main.CRITICAL: Type Error occurred when creating object: Stagem\OrderToXml\Console\GenerateXml\Interceptor, Stagem\OrderToXml\Console\GenerateXml::__construct(): Argument #1 ($orderRepository) must be of type Magento\Sales\Api\OrderRepositoryInterface, null given, called in C:\www\git\project-community-edition\generated\code\Stagem\OrderToXml\Console\GenerateXml\Interceptor.php on line 14 [] []
+[2024-10-18T13:05:25.303079+00:00] main.ERROR: There are no commands defined in the "cache" namespace.
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(720): Symfony\Component\Console\Application->findNamespace('cache')
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(266): Symfony\Component\Console\Application->find('cache:clean')
+#2 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2024-10-18T13:06:54.554336+00:00] main.CRITICAL: Type Error occurred when creating object: Stagem\OrderToXml\Console\GenerateXml\Interceptor, Stagem\OrderToXml\Console\GenerateXml::__construct(): Argument #1 ($orderRepository) must be of type Magento\Sales\Api\OrderRepositoryInterface, null given, called in C:\www\git\project-community-edition\generated\code\Stagem\OrderToXml\Console\GenerateXml\Interceptor.php on line 14 [] []
+[2024-10-18T13:06:54.568209+00:00] main.ERROR: There are no commands defined in the "cache" namespace.
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(720): Symfony\Component\Console\Application->findNamespace('cache')
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(266): Symfony\Component\Console\Application->find('cache:clean')
+#2 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2024-10-18T13:07:32.849189+00:00] main.CRITICAL: Type Error occurred when creating object: Stagem\OrderToXml\Console\GenerateXml\Interceptor, Stagem\OrderToXml\Console\GenerateXml::__construct(): Argument #1 ($orderRepository) must be of type Magento\Sales\Api\OrderRepositoryInterface, null given, called in C:\www\git\project-community-edition\generated\code\Stagem\OrderToXml\Console\GenerateXml\Interceptor.php on line 14 [] []
+[2024-10-18T13:09:14.496749+00:00] main.CRITICAL: Type Error occurred when creating object: Stagem\OrderToXml\Console\GenerateXml\Interceptor, Stagem\OrderToXml\Console\GenerateXml::__construct(): Argument #1 ($orderRepository) must be of type Magento\Sales\Api\OrderRepositoryInterface, null given, called in C:\www\git\project-community-edition\generated\code\Stagem\OrderToXml\Console\GenerateXml\Interceptor.php on line 14 [] []
+[2024-10-18T13:09:14.511482+00:00] main.ERROR: There are no commands defined in the "cache" namespace.
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(720): Symfony\Component\Console\Application->findNamespace('cache')
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(266): Symfony\Component\Console\Application->find('cache:clean')
+#2 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2024-10-18T13:09:25.852024+00:00] main.CRITICAL: Type Error occurred when creating object: Stagem\OrderToXml\Console\GenerateXml\Interceptor, Stagem\OrderToXml\Console\GenerateXml::__construct(): Argument #1 ($orderRepository) must be of type Magento\Sales\Api\OrderRepositoryInterface, null given, called in C:\www\git\project-community-edition\generated\code\Stagem\OrderToXml\Console\GenerateXml\Interceptor.php on line 14 [] []
+[2024-10-18T13:09:25.865738+00:00] main.ERROR: There are no commands defined in the "cache" namespace.
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(720): Symfony\Component\Console\Application->findNamespace('cache')
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(266): Symfony\Component\Console\Application->find('cache:flush')
+#2 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2024-10-18T13:11:01.258661+00:00] main.CRITICAL: Type Error occurred when creating object: Stagem\OrderToXml\Console\GenerateXml\Interceptor, Stagem\OrderToXml\Console\GenerateXml::__construct(): Argument #1 ($orderRepository) must be of type Magento\Sales\Api\OrderRepositoryInterface, null given, called in C:\www\git\project-community-edition\generated\code\Stagem\OrderToXml\Console\GenerateXml\Interceptor.php on line 14 [] []
+[2024-10-18T13:11:01.272186+00:00] main.ERROR: There are no commands defined in the "cache" namespace.
+#0 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(720): Symfony\Component\Console\Application->findNamespace('cache')
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(266): Symfony\Component\Console\Application->find('cache:clean')
+#2 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2024-10-18T13:13:56.656563+00:00] main.CRITICAL: Type Error occurred when creating object: Stagem\OrderToXml\Console\GenerateXml\Interceptor, Stagem\OrderToXml\Console\GenerateXml::__construct(): Argument #1 ($orderRepository) must be of type Magento\Sales\Api\OrderRepositoryInterface, null given, called in C:\www\git\project-community-edition\generated\code\Stagem\OrderToXml\Console\GenerateXml\Interceptor.php on line 14 [] []
+[2024-10-18T13:15:24.962354+00:00] main.CRITICAL: Type Error occurred when creating object: Stagem\OrderToXml\Console\GenerateXml\Interceptor, Stagem\OrderToXml\Console\GenerateXml::__construct(): Argument #1 ($orderRepository) must be of type Magento\Sales\Api\OrderRepositoryInterface, null given, called in C:\www\git\project-community-edition\generated\code\Stagem\OrderToXml\Console\GenerateXml\Interceptor.php on line 14 [] []
+[2024-10-18T13:38:03.424607+00:00] main.ERROR: Warning: file_put_contents(C:/www/git/project-community-edition/generated/metadata/primary|global|plugin-list.php): Failed to open stream: No such file or directory in C:\www\git\project-community-edition\vendor\magento\framework\Interception\PluginListGenerator.php on line 411
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'file_put_conten...', 'C:\\www\\git\\proj...', 411)
+#1 C:\www\git\project-community-edition\vendor\magento\framework\Interception\PluginListGenerator.php(411): file_put_contents('C:/www/git/proj...', '<?php return ar...')
+#2 C:\www\git\project-community-edition\vendor\magento\framework\Interception\PluginListGenerator.php(180): Magento\Framework\Interception\PluginListGenerator->writeConfig('primary|global|...', Array)
+#3 C:\www\git\project-community-edition\setup\src\Magento\Setup\Module\Di\App\Task\Operation\PluginListGenerator.php(53): Magento\Framework\Interception\PluginListGenerator->write(Array)
+#4 C:\www\git\project-community-edition\setup\src\Magento\Setup\Module\Di\App\Task\Manager.php(56): Magento\Setup\Module\Di\App\Task\Operation\PluginListGenerator->doOperation()
+#5 C:\www\git\project-community-edition\setup\src\Magento\Setup\Console\Command\DiCompileCommand.php(209): Magento\Setup\Module\Di\App\Task\Manager->process(Object(Closure), Object(Closure))
+#6 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(326): Magento\Setup\Console\Command\DiCompileCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\DiCompileCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#12 {main} [] []
+[2024-10-18T15:14:29.930019+00:00] main.ERROR: The entity that was requested doesn't exist. Verify the entity and try again.
+#0 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(58): Magento\Sales\Model\OrderRepository->get('000000003')
+#1 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(138): Magento\Sales\Model\OrderRepository\Interceptor->___callParent('get', Array)
+#2 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(153): Magento\Sales\Model\OrderRepository\Interceptor->Magento\Framework\Interception\{closure}('000000003')
+#3 C:\www\git\project-community-edition\generated\code\Magento\Sales\Model\OrderRepository\Interceptor.php(23): Magento\Sales\Model\OrderRepository\Interceptor->___callPlugins('get', Array, Array)
+#4 C:\www\git\project-community-edition\app\code\Stagem\OrderToXml\Console\GenerateXml.php(47): Magento\Sales\Model\OrderRepository\Interceptor->get('000000003')
+#5 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(326): Stagem\OrderToXml\Console\GenerateXml->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(58): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(138): Stagem\OrderToXml\Console\GenerateXml\Interceptor->___callParent('run', Array)
+#8 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(153): Stagem\OrderToXml\Console\GenerateXml\Interceptor->Magento\Framework\Interception\{closure}(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\www\git\project-community-edition\generated\code\Stagem\OrderToXml\Console\GenerateXml\Interceptor.php(23): Stagem\OrderToXml\Console\GenerateXml\Interceptor->___callPlugins('run', Array, Array)
+#10 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Stagem\OrderToXml\Console\GenerateXml\Interceptor->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Stagem\OrderToXml\Console\GenerateXml\Interceptor), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#15 {main} [] []
+[2024-10-18T15:18:54.105231+00:00] main.ERROR: The entity that was requested doesn't exist. Verify the entity and try again.
+#0 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(58): Magento\Sales\Model\OrderRepository->get('000000005')
+#1 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(138): Magento\Sales\Model\OrderRepository\Interceptor->___callParent('get', Array)
+#2 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(153): Magento\Sales\Model\OrderRepository\Interceptor->Magento\Framework\Interception\{closure}('000000005')
+#3 C:\www\git\project-community-edition\generated\code\Magento\Sales\Model\OrderRepository\Interceptor.php(23): Magento\Sales\Model\OrderRepository\Interceptor->___callPlugins('get', Array, Array)
+#4 C:\www\git\project-community-edition\app\code\Stagem\OrderToXml\Console\GenerateXml.php(47): Magento\Sales\Model\OrderRepository\Interceptor->get('000000005')
+#5 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(326): Stagem\OrderToXml\Console\GenerateXml->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(58): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(138): Stagem\OrderToXml\Console\GenerateXml\Interceptor->___callParent('run', Array)
+#8 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(153): Stagem\OrderToXml\Console\GenerateXml\Interceptor->Magento\Framework\Interception\{closure}(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\www\git\project-community-edition\generated\code\Stagem\OrderToXml\Console\GenerateXml\Interceptor.php(23): Stagem\OrderToXml\Console\GenerateXml\Interceptor->___callPlugins('run', Array, Array)
+#10 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Stagem\OrderToXml\Console\GenerateXml\Interceptor->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Stagem\OrderToXml\Console\GenerateXml\Interceptor), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#15 {main} [] []
+[2024-10-21T07:34:01.724854+00:00] main.ERROR: Warning: Undefined property: Magento\Sales\Model\Order\Interceptor::$getCustomerMiddlename in C:\www\git\project-community-edition\app\code\Stagem\OrderToXml\Console\GenerateXml.php on line 66
+#0 C:\www\git\project-community-edition\app\code\Stagem\OrderToXml\Console\GenerateXml.php(66): Magento\Framework\App\ErrorHandler->handler(2, 'Undefined prope...', 'C:\\www\\git\\proj...', 66)
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(326): Stagem\OrderToXml\Console\GenerateXml->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(58): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(138): Stagem\OrderToXml\Console\GenerateXml\Interceptor->___callParent('run', Array)
+#4 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(153): Stagem\OrderToXml\Console\GenerateXml\Interceptor->Magento\Framework\Interception\{closure}(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\www\git\project-community-edition\generated\code\Stagem\OrderToXml\Console\GenerateXml\Interceptor.php(77): Stagem\OrderToXml\Console\GenerateXml\Interceptor->___callPlugins('run', Array, Array)
+#6 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Stagem\OrderToXml\Console\GenerateXml\Interceptor->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Stagem\OrderToXml\Console\GenerateXml\Interceptor), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2024-10-21T07:38:46.003246+00:00] main.ERROR: Warning: Undefined property: Magento\Sales\Model\Order\Interceptor::$getCustomerMiddlename in C:\www\git\project-community-edition\app\code\Stagem\OrderToXml\Console\GenerateXml.php on line 66
+#0 C:\www\git\project-community-edition\app\code\Stagem\OrderToXml\Console\GenerateXml.php(66): Magento\Framework\App\ErrorHandler->handler(2, 'Undefined prope...', 'C:\\www\\git\\proj...', 66)
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(326): Stagem\OrderToXml\Console\GenerateXml->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(58): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(138): Stagem\OrderToXml\Console\GenerateXml\Interceptor->___callParent('run', Array)
+#4 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(153): Stagem\OrderToXml\Console\GenerateXml\Interceptor->Magento\Framework\Interception\{closure}(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\www\git\project-community-edition\generated\code\Stagem\OrderToXml\Console\GenerateXml\Interceptor.php(77): Stagem\OrderToXml\Console\GenerateXml\Interceptor->___callPlugins('run', Array, Array)
+#6 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Stagem\OrderToXml\Console\GenerateXml\Interceptor->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Stagem\OrderToXml\Console\GenerateXml\Interceptor), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2024-10-21T08:12:38.184833+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/jquery/jstree/themes/default/style.css is wrong. [] []
+[2024-10-21T08:12:38.189688+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/jquery/jstree/themes/default/style.css is wrong. [] []
+[2024-10-21T08:12:38.372616+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ext-all.css is wrong. [] []
+[2024-10-21T08:12:38.373507+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ytheme-magento.css is wrong. [] []
+[2024-10-21T08:12:38.377325+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ext-all.css is wrong. [] []
+[2024-10-21T08:12:38.379646+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ytheme-magento.css is wrong. [] []
+[2024-10-21T08:12:38.383214+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-21T08:12:38.406426+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/Magento_ReCaptchaUser/css/recaptcha.css is wrong. [] []
+[2024-10-21T08:12:38.415003+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-21T08:12:38.416131+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/Magento_ReCaptchaUser/css/recaptcha.css is wrong. [] []
+[2024-10-21T08:12:38.976982+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/css/styles.css is wrong. [] []
+[2024-10-21T08:12:38.980560+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/css/styles.css is wrong. [] []
+[2024-10-21T08:12:40.305367+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/images/magento-logo.svg is wrong. [] []
+[2024-10-21T08:12:40.325979+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/images/magento-logo.svg is wrong. [] []
+[2024-10-21T08:12:40.516333+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-21T08:12:40.519900+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-21T08:12:40.715311+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/requirejs/require.js is wrong. [] []
+[2024-10-21T08:12:40.718047+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/requirejs/require.js is wrong. [] []
+[2024-10-21T08:12:42.476536+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/Magento_Theme/favicon.ico is wrong. [] []
+[2024-10-21T08:12:42.479432+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/Magento_Theme/favicon.ico is wrong. [] []
+[2024-10-21T08:12:59.750670+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/Magento_ReCaptchaUser/css/recaptcha.css is wrong. [] []
+[2024-10-21T08:12:59.753957+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/Magento_ReCaptchaUser/css/recaptcha.css is wrong. [] []
+[2024-10-21T08:12:59.956454+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/css/styles.css is wrong. [] []
+[2024-10-21T08:12:59.960362+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/css/styles.css is wrong. [] []
+[2024-10-21T08:13:00.608350+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ext-all.css is wrong. [] []
+[2024-10-21T08:13:00.611895+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ext-all.css is wrong. [] []
+[2024-10-21T08:13:02.098447+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/requirejs/require.js is wrong. [] []
+[2024-10-21T08:13:02.100980+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/requirejs/require.js is wrong. [] []
+[2024-10-21T08:13:02.126588+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/jquery/jstree/themes/default/style.css is wrong. [] []
+[2024-10-21T08:13:02.129398+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/jquery/jstree/themes/default/style.css is wrong. [] []
+[2024-10-21T08:13:02.278025+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-21T08:13:02.280633+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-21T08:13:04.093946+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/images/magento-logo.svg is wrong. [] []
+[2024-10-21T08:13:04.096622+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/images/magento-logo.svg is wrong. [] []
+[2024-10-21T08:13:04.112384+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-21T08:13:04.114541+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-21T08:13:04.245536+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ytheme-magento.css is wrong. [] []
+[2024-10-21T08:13:04.248463+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ytheme-magento.css is wrong. [] []
+[2024-10-21T08:13:29.803990+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ext-all.css is wrong. [] []
+[2024-10-21T08:13:29.808035+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ext-all.css is wrong. [] []
+[2024-10-21T08:13:29.906543+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/css/styles.css is wrong. [] []
+[2024-10-21T08:13:29.909159+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/css/styles.css is wrong. [] []
+[2024-10-21T08:13:30.090229+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/Magento_ReCaptchaUser/css/recaptcha.css is wrong. [] []
+[2024-10-21T08:13:30.102192+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/Magento_ReCaptchaUser/css/recaptcha.css is wrong. [] []
+[2024-10-21T08:13:31.272492+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/jquery/jstree/themes/default/style.css is wrong. [] []
+[2024-10-21T08:13:31.278159+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/jquery/jstree/themes/default/style.css is wrong. [] []
+[2024-10-21T08:13:31.881695+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-21T08:13:31.884242+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-21T08:13:31.933411+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/requirejs/require.js is wrong. [] []
+[2024-10-21T08:13:31.937369+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/requirejs/require.js is wrong. [] []
+[2024-10-21T08:13:32.091242+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/images/magento-logo.svg is wrong. [] []
+[2024-10-21T08:13:32.093743+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/images/magento-logo.svg is wrong. [] []
+[2024-10-21T08:13:33.035679+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-21T08:13:33.041661+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-21T08:13:33.059163+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ytheme-magento.css is wrong. [] []
+[2024-10-21T08:13:33.061660+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ytheme-magento.css is wrong. [] []
+[2024-10-21T08:14:03.974888+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ytheme-magento.css is wrong. [] []
+[2024-10-21T08:14:03.978177+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ytheme-magento.css is wrong. [] []
+[2024-10-21T08:14:03.986086+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ext-all.css is wrong. [] []
+[2024-10-21T08:14:03.989984+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ext-all.css is wrong. [] []
+[2024-10-21T08:14:05.107480+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-21T08:14:05.114564+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-21T08:14:06.111634+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/jquery/jstree/themes/default/style.css is wrong. [] []
+[2024-10-21T08:14:06.114449+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/jquery/jstree/themes/default/style.css is wrong. [] []
+[2024-10-21T08:14:07.875906+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/css/styles.css is wrong. [] []
+[2024-10-21T08:14:07.878859+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/css/styles.css is wrong. [] []
+[2024-10-21T08:14:08.249411+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/requirejs/require.js is wrong. [] []
+[2024-10-21T08:14:08.252584+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/requirejs/require.js is wrong. [] []
+[2024-10-21T08:14:10.565047+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-21T08:14:10.571121+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-21T08:14:10.632464+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/images/magento-icon.svg is wrong. [] []
+[2024-10-21T08:14:10.637338+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/images/magento-icon.svg is wrong. [] []
+[2024-10-21T09:19:35.011282+00:00] main.ERROR: Warning: Undefined property: Magento\Sales\Model\Order\Interceptor::$getCustomerMiddlename in C:\www\git\project-community-edition\app\code\Stagem\OrderToXml\Console\GenerateXml.php on line 81
+#0 C:\www\git\project-community-edition\app\code\Stagem\OrderToXml\Console\GenerateXml.php(81): Magento\Framework\App\ErrorHandler->handler(2, 'Undefined prope...', 'C:\\www\\git\\proj...', 81)
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(326): Stagem\OrderToXml\Console\GenerateXml->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(58): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(138): Stagem\OrderToXml\Console\GenerateXml\Interceptor->___callParent('run', Array)
+#4 C:\www\git\project-community-edition\vendor\magento\framework\Interception\Interceptor.php(153): Stagem\OrderToXml\Console\GenerateXml\Interceptor->Magento\Framework\Interception\{closure}(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\www\git\project-community-edition\generated\code\Stagem\OrderToXml\Console\GenerateXml\Interceptor.php(77): Stagem\OrderToXml\Console\GenerateXml\Interceptor->___callPlugins('run', Array, Array)
+#6 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Stagem\OrderToXml\Console\GenerateXml\Interceptor->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Stagem\OrderToXml\Console\GenerateXml\Interceptor), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []

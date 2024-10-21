@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<orders place="magento"><order id="000000001"><date>2024-10-16 12:46:28</date><subTotal>29.0000</subTotal><shipping>5.0000</shipping><discount>0.0000</discount><tax>2.3900</tax><total>36.3900</total><client><firstName>Veronica</firstName><lastName>Costello</lastName><phone>(555) 229-3326</phone><email>roni_cost@example.com</email></client></order></orders>
