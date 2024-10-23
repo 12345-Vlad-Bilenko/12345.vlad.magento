@@ -1039,3 +1039,241 @@ Did you mean one of these?
 #9 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
 #10 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
 #11 {main} [] []
+[2024-10-21T14:22:45.415477+00:00] main.ERROR: The CMS page with the "0" ID doesn't exist. [] []
+[2024-10-21T15:26:13.874450+00:00] main.ERROR: The CMS page with the "0" ID doesn't exist. [] []
+[2024-10-22T12:19:49.193843+00:00] main.ERROR: Namespace not defined properly
+#0 C:\www\git\project-community-edition\setup\src\Magento\Setup\Module\Di\Code\Reader\FileClassScanner.php(156): Magento\Setup\Module\Di\Code\Reader\FileClassScanner->isBracedNamespace(3)
+#1 C:\www\git\project-community-edition\setup\src\Magento\Setup\Module\Di\Code\Reader\FileClassScanner.php(89): Magento\Setup\Module\Di\Code\Reader\FileClassScanner->extract()
+#2 C:\www\git\project-community-edition\setup\src\Magento\Setup\Module\Di\Code\Reader\ClassesScanner.php(115): Magento\Setup\Module\Di\Code\Reader\FileClassScanner->getClassName()
+#3 C:\www\git\project-community-edition\setup\src\Magento\Setup\Module\Di\Code\Reader\ClassesScanner.php(87): Magento\Setup\Module\Di\Code\Reader\ClassesScanner->extract(Object(RecursiveIteratorIterator))
+#4 C:\www\git\project-community-edition\setup\src\Magento\Setup\Module\Di\App\Task\Operation\RepositoryGenerator.php(61): Magento\Setup\Module\Di\Code\Reader\ClassesScanner->getList('C:/www/git/proj...')
+#5 C:\www\git\project-community-edition\setup\src\Magento\Setup\Module\Di\App\Task\Manager.php(56): Magento\Setup\Module\Di\App\Task\Operation\RepositoryGenerator->doOperation()
+#6 C:\www\git\project-community-edition\setup\src\Magento\Setup\Console\Command\DiCompileCommand.php(209): Magento\Setup\Module\Di\App\Task\Manager->process(Object(Closure), Object(Closure))
+#7 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(326): Magento\Setup\Console\Command\DiCompileCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\DiCompileCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#13 {main} [] []
+[2024-10-22T12:25:42.122782+00:00] main.ERROR: Namespace not defined properly
+#0 C:\www\git\project-community-edition\setup\src\Magento\Setup\Module\Di\Code\Reader\FileClassScanner.php(156): Magento\Setup\Module\Di\Code\Reader\FileClassScanner->isBracedNamespace(3)
+#1 C:\www\git\project-community-edition\setup\src\Magento\Setup\Module\Di\Code\Reader\FileClassScanner.php(89): Magento\Setup\Module\Di\Code\Reader\FileClassScanner->extract()
+#2 C:\www\git\project-community-edition\setup\src\Magento\Setup\Module\Di\Code\Reader\ClassesScanner.php(115): Magento\Setup\Module\Di\Code\Reader\FileClassScanner->getClassName()
+#3 C:\www\git\project-community-edition\setup\src\Magento\Setup\Module\Di\Code\Reader\ClassesScanner.php(87): Magento\Setup\Module\Di\Code\Reader\ClassesScanner->extract(Object(RecursiveIteratorIterator))
+#4 C:\www\git\project-community-edition\setup\src\Magento\Setup\Module\Di\App\Task\Operation\RepositoryGenerator.php(61): Magento\Setup\Module\Di\Code\Reader\ClassesScanner->getList('C:/www/git/proj...')
+#5 C:\www\git\project-community-edition\setup\src\Magento\Setup\Module\Di\App\Task\Manager.php(56): Magento\Setup\Module\Di\App\Task\Operation\RepositoryGenerator->doOperation()
+#6 C:\www\git\project-community-edition\setup\src\Magento\Setup\Console\Command\DiCompileCommand.php(209): Magento\Setup\Module\Di\App\Task\Manager->process(Object(Closure), Object(Closure))
+#7 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(326): Magento\Setup\Console\Command\DiCompileCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\DiCompileCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#13 {main} [] []
+[2024-10-22T12:45:59.747013+00:00] main.ERROR: Warning: file_put_contents(C:/www/git/project-community-edition/generated/metadata/primary|global|plugin-list.php): Failed to open stream: No such file or directory in C:\www\git\project-community-edition\vendor\magento\framework\Interception\PluginListGenerator.php on line 411
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'file_put_conten...', 'C:\\www\\git\\proj...', 411)
+#1 C:\www\git\project-community-edition\vendor\magento\framework\Interception\PluginListGenerator.php(411): file_put_contents('C:/www/git/proj...', '<?php return ar...')
+#2 C:\www\git\project-community-edition\vendor\magento\framework\Interception\PluginListGenerator.php(180): Magento\Framework\Interception\PluginListGenerator->writeConfig('primary|global|...', Array)
+#3 C:\www\git\project-community-edition\setup\src\Magento\Setup\Module\Di\App\Task\Operation\PluginListGenerator.php(53): Magento\Framework\Interception\PluginListGenerator->write(Array)
+#4 C:\www\git\project-community-edition\setup\src\Magento\Setup\Module\Di\App\Task\Manager.php(56): Magento\Setup\Module\Di\App\Task\Operation\PluginListGenerator->doOperation()
+#5 C:\www\git\project-community-edition\setup\src\Magento\Setup\Console\Command\DiCompileCommand.php(209): Magento\Setup\Module\Di\App\Task\Manager->process(Object(Closure), Object(Closure))
+#6 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(326): Magento\Setup\Console\Command\DiCompileCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\DiCompileCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#12 {main} [] []
+[2024-10-22T13:04:13.353904+00:00] main.ERROR: Warning: file_put_contents(C:/www/git/project-community-edition/generated/metadata/primary|global|plugin-list.php): Failed to open stream: No such file or directory in C:\www\git\project-community-edition\vendor\magento\framework\Interception\PluginListGenerator.php on line 411
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'file_put_conten...', 'C:\\www\\git\\proj...', 411)
+#1 C:\www\git\project-community-edition\vendor\magento\framework\Interception\PluginListGenerator.php(411): file_put_contents('C:/www/git/proj...', '<?php return ar...')
+#2 C:\www\git\project-community-edition\vendor\magento\framework\Interception\PluginListGenerator.php(180): Magento\Framework\Interception\PluginListGenerator->writeConfig('primary|global|...', Array)
+#3 C:\www\git\project-community-edition\setup\src\Magento\Setup\Module\Di\App\Task\Operation\PluginListGenerator.php(53): Magento\Framework\Interception\PluginListGenerator->write(Array)
+#4 C:\www\git\project-community-edition\setup\src\Magento\Setup\Module\Di\App\Task\Manager.php(56): Magento\Setup\Module\Di\App\Task\Operation\PluginListGenerator->doOperation()
+#5 C:\www\git\project-community-edition\setup\src\Magento\Setup\Console\Command\DiCompileCommand.php(209): Magento\Setup\Module\Di\App\Task\Manager->process(Object(Closure), Object(Closure))
+#6 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(326): Magento\Setup\Console\Command\DiCompileCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\DiCompileCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#12 {main} [] []
+[2024-10-22T13:20:30.068336+00:00] main.ERROR: Warning: file_put_contents(C:/www/git/project-community-edition/generated/metadata/primary|global|plugin-list.php): Failed to open stream: No such file or directory in C:\www\git\project-community-edition\vendor\magento\framework\Interception\PluginListGenerator.php on line 411
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'file_put_conten...', 'C:\\www\\git\\proj...', 411)
+#1 C:\www\git\project-community-edition\vendor\magento\framework\Interception\PluginListGenerator.php(411): file_put_contents('C:/www/git/proj...', '<?php return ar...')
+#2 C:\www\git\project-community-edition\vendor\magento\framework\Interception\PluginListGenerator.php(180): Magento\Framework\Interception\PluginListGenerator->writeConfig('primary|global|...', Array)
+#3 C:\www\git\project-community-edition\setup\src\Magento\Setup\Module\Di\App\Task\Operation\PluginListGenerator.php(53): Magento\Framework\Interception\PluginListGenerator->write(Array)
+#4 C:\www\git\project-community-edition\setup\src\Magento\Setup\Module\Di\App\Task\Manager.php(56): Magento\Setup\Module\Di\App\Task\Operation\PluginListGenerator->doOperation()
+#5 C:\www\git\project-community-edition\setup\src\Magento\Setup\Console\Command\DiCompileCommand.php(209): Magento\Setup\Module\Di\App\Task\Manager->process(Object(Closure), Object(Closure))
+#6 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(326): Magento\Setup\Console\Command\DiCompileCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\DiCompileCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#12 {main} [] []
+[2024-10-22T13:32:46.996292+00:00] main.ERROR: Warning: file_put_contents(C:/www/git/project-community-edition/generated/metadata/primary|global|plugin-list.php): Failed to open stream: No such file or directory in C:\www\git\project-community-edition\vendor\magento\framework\Interception\PluginListGenerator.php on line 411
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'file_put_conten...', 'C:\\www\\git\\proj...', 411)
+#1 C:\www\git\project-community-edition\vendor\magento\framework\Interception\PluginListGenerator.php(411): file_put_contents('C:/www/git/proj...', '<?php return ar...')
+#2 C:\www\git\project-community-edition\vendor\magento\framework\Interception\PluginListGenerator.php(180): Magento\Framework\Interception\PluginListGenerator->writeConfig('primary|global|...', Array)
+#3 C:\www\git\project-community-edition\setup\src\Magento\Setup\Module\Di\App\Task\Operation\PluginListGenerator.php(53): Magento\Framework\Interception\PluginListGenerator->write(Array)
+#4 C:\www\git\project-community-edition\setup\src\Magento\Setup\Module\Di\App\Task\Manager.php(56): Magento\Setup\Module\Di\App\Task\Operation\PluginListGenerator->doOperation()
+#5 C:\www\git\project-community-edition\setup\src\Magento\Setup\Console\Command\DiCompileCommand.php(209): Magento\Setup\Module\Di\App\Task\Manager->process(Object(Closure), Object(Closure))
+#6 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(326): Magento\Setup\Console\Command\DiCompileCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\DiCompileCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#12 {main} [] []
+[2024-10-22T13:47:54.114119+00:00] main.ERROR: Warning: file_put_contents(C:/www/git/project-community-edition/generated/metadata/primary|global|plugin-list.php): Failed to open stream: No such file or directory in C:\www\git\project-community-edition\vendor\magento\framework\Interception\PluginListGenerator.php on line 411
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'file_put_conten...', 'C:\\www\\git\\proj...', 411)
+#1 C:\www\git\project-community-edition\vendor\magento\framework\Interception\PluginListGenerator.php(411): file_put_contents('C:/www/git/proj...', '<?php return ar...')
+#2 C:\www\git\project-community-edition\vendor\magento\framework\Interception\PluginListGenerator.php(180): Magento\Framework\Interception\PluginListGenerator->writeConfig('primary|global|...', Array)
+#3 C:\www\git\project-community-edition\setup\src\Magento\Setup\Module\Di\App\Task\Operation\PluginListGenerator.php(53): Magento\Framework\Interception\PluginListGenerator->write(Array)
+#4 C:\www\git\project-community-edition\setup\src\Magento\Setup\Module\Di\App\Task\Manager.php(56): Magento\Setup\Module\Di\App\Task\Operation\PluginListGenerator->doOperation()
+#5 C:\www\git\project-community-edition\setup\src\Magento\Setup\Console\Command\DiCompileCommand.php(209): Magento\Setup\Module\Di\App\Task\Manager->process(Object(Closure), Object(Closure))
+#6 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(326): Magento\Setup\Console\Command\DiCompileCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\DiCompileCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#12 {main} [] []
+[2024-10-22T14:20:43.847028+00:00] main.ERROR: Warning: file_put_contents(C:/www/git/project-community-edition/generated/metadata/primary|global|plugin-list.php): Failed to open stream: No such file or directory in C:\www\git\project-community-edition\vendor\magento\framework\Interception\PluginListGenerator.php on line 411
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'file_put_conten...', 'C:\\www\\git\\proj...', 411)
+#1 C:\www\git\project-community-edition\vendor\magento\framework\Interception\PluginListGenerator.php(411): file_put_contents('C:/www/git/proj...', '<?php return ar...')
+#2 C:\www\git\project-community-edition\vendor\magento\framework\Interception\PluginListGenerator.php(180): Magento\Framework\Interception\PluginListGenerator->writeConfig('primary|global|...', Array)
+#3 C:\www\git\project-community-edition\setup\src\Magento\Setup\Module\Di\App\Task\Operation\PluginListGenerator.php(53): Magento\Framework\Interception\PluginListGenerator->write(Array)
+#4 C:\www\git\project-community-edition\setup\src\Magento\Setup\Module\Di\App\Task\Manager.php(56): Magento\Setup\Module\Di\App\Task\Operation\PluginListGenerator->doOperation()
+#5 C:\www\git\project-community-edition\setup\src\Magento\Setup\Console\Command\DiCompileCommand.php(209): Magento\Setup\Module\Di\App\Task\Manager->process(Object(Closure), Object(Closure))
+#6 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(326): Magento\Setup\Console\Command\DiCompileCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\DiCompileCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#12 {main} [] []
+[2024-10-22T14:26:53.024753+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2024-10-22T14:26:53.033718+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2024-10-23T04:38:33.760586+00:00] main.ERROR: Warning: include(C:\www\git\project-community-edition/generated/metadata/adminhtml.php): Failed to open stream: No such file or directory in C:\www\git\project-community-edition\vendor\magento\framework\App\ObjectManager\ConfigLoader\Compiled.php on line 31 [] []
+[2024-10-23T04:44:55.185339+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/css/styles.css is wrong. [] []
+[2024-10-23T04:44:55.188752+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/css/styles.css is wrong. [] []
+[2024-10-23T04:44:55.513128+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ytheme-magento.css is wrong. [] []
+[2024-10-23T04:44:55.520114+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ytheme-magento.css is wrong. [] []
+[2024-10-23T04:44:55.866450+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/jquery/jstree/themes/default/style.css is wrong. [] []
+[2024-10-23T04:44:55.869623+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/jquery/jstree/themes/default/style.css is wrong. [] []
+[2024-10-23T04:44:56.333825+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/Magento_ReCaptchaUser/css/recaptcha.css is wrong. [] []
+[2024-10-23T04:44:56.336467+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/Magento_ReCaptchaUser/css/recaptcha.css is wrong. [] []
+[2024-10-23T04:44:57.622851+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ext-all.css is wrong. [] []
+[2024-10-23T04:44:57.624817+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ext-all.css is wrong. [] []
+[2024-10-23T04:44:58.376026+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-23T04:44:58.382309+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-23T04:45:00.303372+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-23T04:45:00.305801+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-23T04:45:00.314915+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/images/magento-logo.svg is wrong. [] []
+[2024-10-23T04:45:00.317563+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/images/magento-logo.svg is wrong. [] []
+[2024-10-23T04:45:00.971129+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/requirejs/require.js is wrong. [] []
+[2024-10-23T04:45:01.065639+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/requirejs/require.js is wrong. [] []
+[2024-10-23T04:45:02.863151+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/Magento_Theme/favicon.ico is wrong. [] []
+[2024-10-23T04:45:02.866465+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/Magento_Theme/favicon.ico is wrong. [] []
+[2024-10-23T04:48:35.583831+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ext-all.css is wrong. [] []
+[2024-10-23T04:48:35.588355+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ext-all.css is wrong. [] []
+[2024-10-23T04:48:37.457003+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/css/styles.css is wrong. [] []
+[2024-10-23T04:48:37.462328+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/css/styles.css is wrong. [] []
+[2024-10-23T04:48:38.500399+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/requirejs/require.js is wrong. [] []
+[2024-10-23T04:48:38.503964+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/requirejs/require.js is wrong. [] []
+[2024-10-23T04:48:38.883146+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-23T04:48:38.886145+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-23T04:48:40.744871+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/jquery/jstree/themes/default/style.css is wrong. [] []
+[2024-10-23T04:48:40.799558+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/jquery/jstree/themes/default/style.css is wrong. [] []
+[2024-10-23T04:48:41.069789+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/images/magento-icon.svg is wrong. [] []
+[2024-10-23T04:48:41.079447+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/images/magento-icon.svg is wrong. [] []
+[2024-10-23T04:48:42.481855+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-23T04:48:42.488864+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-23T04:48:43.390967+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ytheme-magento.css is wrong. [] []
+[2024-10-23T04:48:43.395221+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/extjs/resources/css/ytheme-magento.css is wrong. [] []
+[2024-10-23T09:04:43.746867+00:00] main.ERROR: Warning: file_put_contents(C:/www/git/project-community-edition/generated/metadata/primary|global|plugin-list.php): Failed to open stream: No such file or directory in C:\www\git\project-community-edition\vendor\magento\framework\Interception\PluginListGenerator.php on line 411
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'file_put_conten...', 'C:\\www\\git\\proj...', 411)
+#1 C:\www\git\project-community-edition\vendor\magento\framework\Interception\PluginListGenerator.php(411): file_put_contents('C:/www/git/proj...', '<?php return ar...')
+#2 C:\www\git\project-community-edition\vendor\magento\framework\Interception\PluginListGenerator.php(180): Magento\Framework\Interception\PluginListGenerator->writeConfig('primary|global|...', Array)
+#3 C:\www\git\project-community-edition\setup\src\Magento\Setup\Module\Di\App\Task\Operation\PluginListGenerator.php(53): Magento\Framework\Interception\PluginListGenerator->write(Array)
+#4 C:\www\git\project-community-edition\setup\src\Magento\Setup\Module\Di\App\Task\Manager.php(56): Magento\Setup\Module\Di\App\Task\Operation\PluginListGenerator->doOperation()
+#5 C:\www\git\project-community-edition\setup\src\Magento\Setup\Console\Command\DiCompileCommand.php(209): Magento\Setup\Module\Di\App\Task\Manager->process(Object(Closure), Object(Closure))
+#6 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(326): Magento\Setup\Console\Command\DiCompileCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\DiCompileCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#12 {main} [] []
+[2024-10-23T09:05:43.457279+00:00] main.ERROR: NOTE: Manual static content deployment is not required in "default" and "developer" modes.
+In "default" and "developer" modes static contents are being deployed automatically on demand.
+If you still want to deploy in these modes, use -f option: 'bin/magento setup:static-content:deploy -f'
+#0 C:\www\git\project-community-edition\setup\src\Magento\Setup\Console\Command\DeployStaticContentCommand.php(112): Magento\Setup\Console\Command\DeployStaticContentCommand->checkAppMode(Object(Symfony\Component\Console\Input\ArgvInput))
+#1 C:\www\git\project-community-edition\vendor\symfony\console\Command\Command.php(326): Magento\Setup\Console\Command\DeployStaticContentCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\DeployStaticContentCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\www\git\project-community-edition\vendor\magento\framework\Console\Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\www\git\project-community-edition\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\www\git\project-community-edition\bin\magento(23): Symfony\Component\Console\Application->run()
+#7 {main} [] []
+[2024-10-23T09:05:52.975405+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2024-10-23T09:05:52.978789+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2024-10-23T09:05:53.679190+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2024-10-23T09:05:53.682812+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2024-10-23T09:05:53.850925+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2024-10-23T09:05:53.857226+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2024-10-23T09:05:54.847534+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-23T09:05:54.899459+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-23T09:05:56.184230+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2024-10-23T09:05:56.186994+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2024-10-23T09:05:56.621907+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2024-10-23T09:05:56.624867+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2024-10-23T09:05:57.461104+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2024-10-23T09:05:57.466284+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2024-10-23T09:05:57.589109+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2024-10-23T09:05:57.593255+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2024-10-23T09:05:58.621014+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2024-10-23T09:05:58.652850+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2024-10-23T09:05:59.152902+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2024-10-23T09:05:59.155999+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2024-10-23T09:05:59.527038+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2024-10-23T09:05:59.532534+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2024-10-23T09:06:00.788828+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2024-10-23T09:06:00.793543+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2024-10-23T09:06:01.111294+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-23T09:06:01.115288+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-23T09:06:05.340941+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/Magento_Theme/favicon.ico is wrong. [] []
+[2024-10-23T09:06:05.343565+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/Magento_Theme/favicon.ico is wrong. [] []
+[2024-10-23T09:16:37.494772+00:00] main.CRITICAL: {"error":{"root_cause":[{"type":"cluster_block_exception","reason":"index [magento2_product_1_v62] blocked by: [TOO_MANY_REQUESTS/12/disk usage exceeded flood-stage watermark, index has read-only-allow-delete block];"}],"type":"cluster_block_exception","reason":"index [magento2_product_1_v62] blocked by: [TOO_MANY_REQUESTS/12/disk usage exceeded flood-stage watermark, index has read-only-allow-delete block];"},"status":429} [] []
+[2024-10-23T09:29:04.244309+00:00] main.CRITICAL: {"error":{"root_cause":[{"type":"cluster_block_exception","reason":"index [magento2_product_1_v62] blocked by: [TOO_MANY_REQUESTS/12/disk usage exceeded flood-stage watermark, index has read-only-allow-delete block];"}],"type":"cluster_block_exception","reason":"index [magento2_product_1_v62] blocked by: [TOO_MANY_REQUESTS/12/disk usage exceeded flood-stage watermark, index has read-only-allow-delete block];"},"status":429} [] []
+[2024-10-23T09:34:08.845917+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2024-10-23T09:34:08.849794+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2024-10-23T09:34:09.156569+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-23T09:34:09.159761+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2024-10-23T09:34:09.151547+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2024-10-23T09:34:09.170459+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2024-10-23T09:34:09.247421+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2024-10-23T09:34:09.250844+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2024-10-23T09:34:09.460631+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-23T09:34:09.464235+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2024-10-23T09:34:09.710362+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2024-10-23T09:34:09.713635+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2024-10-23T09:34:12.417153+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2024-10-23T09:34:12.419883+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2024-10-23T09:34:13.057831+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2024-10-23T09:34:13.060610+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2024-10-23T09:34:13.195052+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2024-10-23T09:34:13.199830+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2024-10-23T09:34:13.223159+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2024-10-23T09:34:13.225765+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2024-10-23T09:34:13.314928+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2024-10-23T09:34:13.317749+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2024-10-23T09:34:13.403858+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2024-10-23T09:34:13.443248+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2024-10-23T09:34:14.745311+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2024-10-23T09:34:14.747950+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2024-10-23T09:34:15.455304+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/Magento_Theme/favicon.ico is wrong. [] []
+[2024-10-23T09:34:15.458508+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/Magento_Theme/favicon.ico is wrong. [] []

@@ -1,0 +1,21 @@
+<?php
+/** @var \Stagem\ProductWidget\Block\ProductWidget $block */
+$products = $block->getProductCollection();
+?>
+<div class="product-widget">
+    <h2><?php echo $block->getEscapedHtml($block->getData('block_title')); ?></h2>
+    <?php if ($products->getSize()): ?>
+        <ul>
+            <?php foreach ($products as $product): ?>
+                <li>
+                    <a href="<?php echo $product->getProductUrl(); ?>">
+                        <?php echo $block->getEscapedHtml($product->getName()); ?>
+                    </a>
+                    <span><?php echo $block->getEscapedHtml($product->getPrice()); ?></span>
+                </li>
+            <?php endforeach; ?>
+        </ul>
+    <?php else: ?>
+        <p><?php echo __('No products found.'); ?></p>
+    <?php endif; ?>
+</div>

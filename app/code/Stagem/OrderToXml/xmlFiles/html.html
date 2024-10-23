@@ -1,0 +1,108 @@
+<style>
+    form {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 6px;
+        color: #333;
+        font-weight: bold;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 14px;
+        margin-bottom: 12px;
+        border: none;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+        font-size: 14px;
+    }
+
+    input[type="file"] {
+        display: none;
+    }
+
+    .file-upload-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #f9f9f9;
+        border: 2px dashed #ccc;
+        border-radius: 8px;
+        padding: 12px;
+        cursor: pointer;
+        transition: border-color 0.3s;
+    }
+
+    .file-upload-wrapper:hover {
+        border-color: #f57c00;
+    }
+
+    .file-upload-wrapper span {
+        color: #666;
+    }
+
+    .file-upload-btn {
+        background: linear-gradient(135deg, #ff9800, #f57c00);
+        color: white;
+        padding: 10px 16px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+    .file-upload-btn:hover {
+        background: linear-gradient(135deg, #f57c00, #e65100);
+    }
+
+    button {
+        background: linear-gradient(135deg, #ff9800, #f57c00);
+        color: white;
+        padding: 14px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    button:hover {
+        background: linear-gradient(135deg, #f57c00, #e65100);
+    }
+</style>
+
+<form action="#" method="post" enctype="multipart/form-data">
+    <label for="issue_description">Describe the issue:</label>
+    <textarea id="issue_description" name="issue_description" rows="4" required></textarea>
+
+    <label for="claim_picture">Claim Picture:</label>
+    <div class="file-upload-wrapper" onclick="document.getElementById('claim_picture').click();">
+        <span id="file-chosen">No file chosen</span>
+        <button type="button" class="file-upload-btn">Choose File</button>
+    </div>
+    <input type="file" id="claim_picture" name="claim_picture" accept="image/*" required onchange="document.getElementById('file-chosen').textContent = this.files[0].name;">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Phone number:</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="order_number">Order Number:</label>
+    <input type="text" id="order_number" name="order_number" required>
+
+    <div class="g-recaptcha" data-sitekey="ваш_ключ_recaptcha"></div>
+    <br>
+    <button type="submit">Submit</button>
+</form>
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>

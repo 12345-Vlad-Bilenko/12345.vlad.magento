@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Magento/Widget/etc/widget.xsd">
+    <widget id="stagem_productwidget" class="Stagem\ProductWidget\Block\ProductWidget">
+        <label translate="true">Product Widget</label>
+        <description>Widget to display products sorted by price descending</description>
+        <parameters>
+            <parameter name="block_title" xsi:type="text" required="true" visible="true" sort_order="0">
+                <label translate="true">Block Title</label>
+                <description>Enter the title of the block.</description>
+            </parameter>
+            <parameter name="product_count" xsi:type="text" required="true" visible="true" sort_order="1">
+                <label translate="true">Number of Products</label>
+                <description>Specify how many products to display.</description>
+            </parameter>
+            <parameter name="category_id" xsi:type="select" required="true" visible="true" sort_order="2" source_model="Stagem\ProductWidget\Model\Config\Source\Category">
+                <label translate="true">Category</label>
+                <description>Select the category of products.</description>
+            </parameter>
+        </parameters>
+    </widget>
+</widgets>
