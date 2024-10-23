@@ -47,7 +47,7 @@ class ProductWidget extends Template implements BlockInterface
                        ->setPageSize($this->getProductCount())
                        ->setOrder('price', 'DESC');
         } catch (\Magento\Framework\Exception\NoSuchEntityException $e) {
-            return null; // Возвращаем null, если категория не найдена
+            return null; 
         }
 
         return $collection;

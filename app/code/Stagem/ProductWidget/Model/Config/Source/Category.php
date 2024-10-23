@@ -14,16 +14,20 @@ class Category implements OptionSourceInterface
     }
 
     public function toOptionArray()
-    {
-        $categories = $this->categoryCollectionFactory->create()
-            ->addAttributeToSelect('name')
-            ->addIsActiveFilter();
-        
-        $options = [];
-        foreach ($categories as $category) {
-            $options[] = ['value' => $category->getId(), 'label' => $category->getName()];
-        }
+{
+    $categories = $this->categoryCollectionFactory->create()
+        ->addAttributeToSelect('name')
+        ->addIsActiveFilter();
 
-        return $options;
+    $options = [];
+    foreach ($categories as $category) {
+        $categoryId = $category->getId(); // Получаем ID категории
+        $options[] = ['value' => $categoryId, 'label' => $category->getName()];
+
+        // Логируем ID категории для отладки
+        error_log('Category ID: ' . $categoryId); // Записываем в лог
     }
+
+    return $options;
+}
 }

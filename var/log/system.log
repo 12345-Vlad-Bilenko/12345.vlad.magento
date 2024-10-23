@@ -1277,3 +1277,5 @@ If you still want to deploy in these modes, use -f option: 'bin/magento setup:st
 [2024-10-23T09:34:14.747950+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
 [2024-10-23T09:34:15.455304+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/Magento_Theme/favicon.ico is wrong. [] []
 [2024-10-23T09:34:15.458508+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/Magento_Theme/favicon.ico is wrong. [] []
+[2024-10-23T15:56:54.083755+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/underscore-umd.js.map is wrong. [] []
+[2024-10-23T15:56:54.087599+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/underscore-umd.js.map is wrong. [] []

@@ -11,12 +11,12 @@ $categoryId = $block->getCategoryId(); // Получаем ID категории
     <!-- Проверяем, что коллекция найдена -->
     <?php if ($collection->getSize()): ?>
         <ul>
-            <?php foreach ($collection as $product): ?>
+            <?php foreach ($collection->getItems() as $product): ?>
                 <li>
                     <a href="<?php echo $product->getProductUrl(); ?>">
                         <?php echo $product->getName(); ?>
                     </a>
-                    <p><?php echo $product->getPrice(); ?> $</p>
+                    <p><?php echo number_format($product->getPrice(), 2, '.', ' '); ?> $</p> <!-- Форматируем цену -->
                 </li>
             <?php endforeach; ?>
         </ul>
