@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1729676536;s:6:"expire";i:1729762936;s:4:"tags";s:116:"f45_CAT_P,f45_BLOCK_HTML,f45_CAT_P_1556,f45_CAT_P_1812,f45_CAT_P_694,f45_CAT_P_158,f45_CAT_P_6,f45_CAT_P_14,f45_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1729695537;s:6:"expire";i:1729781937;s:4:"tags";s:116:"f45_CAT_P,f45_BLOCK_HTML,f45_CAT_P_1556,f45_CAT_P_1812,f45_CAT_P_694,f45_CAT_P_158,f45_CAT_P_6,f45_CAT_P_14,f45_MAGE";}
         <div class="block widget block-products-list grid">
                 <div class="block-content">
             <!-- new_products_content_widget_grid-->            <div class="products-grid grid">
@@ -43,9 +43,9 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1729676536;s:6:"expire";i:1729762936;s:4:"t
                  title="60%">
                 <span><span>60%</span></span>
             </div>
-            <script type="text&#x2F;javascript">    var elemEk1RAjy2Array = document.querySelectorAll('#rating-result_1556 span');
-    if(elemEk1RAjy2Array.length !== 'undefined'){
-        elemEk1RAjy2Array.forEach(function(element) {
+            <script type="text&#x2F;javascript">    var elemShJbWohbArray = document.querySelectorAll('#rating-result_1556 span');
+    if(elemShJbWohbArray.length !== 'undefined'){
+        elemShJbWohbArray.forEach(function(element) {
             if (element) {
                 element.style.width = '60%';
 
@@ -111,7 +111,7 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1729676536;s:6:"expire";i:1729762936;s:4:"t
                                                                                                                                                                     <form data-role="tocart-form" data-product-sku="WS12" action="http://myproject/checkout/cart/add/uenc/aHR0cDovL215cHJvamVjdC8~/product/1556/" method="post">
                                                             <input type="hidden" name="product" value="1556">
                                                             <input type="hidden" name="uenc" value="aHR0cDovL215cHJvamVjdC9jaGVja291dC9jYXJ0L2FkZC91ZW5jL2FIUjBjRG92TDIxNWNISnZhbVZqZEM4fi9wcm9kdWN0LzE1NTYv">
-                                                            <input name="form_key" type="hidden" value="AYTnnvQ1xxQC81ez" />                                                            <button type="submit"
+                                                            <input name="form_key" type="hidden" value="HmjO3Tmv6pKMGoth" />                                                            <button type="submit"
                                                                     title="Add to Cart"
                                                                     class="action tocart primary">
                                                                 <span>Add to Cart</span>
@@ -180,9 +180,9 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1729676536;s:6:"expire";i:1729762936;s:4:"t
                  title="70%">
                 <span><span>70%</span></span>
             </div>
-            <script type="text&#x2F;javascript">    var elem0fD0o60ZArray = document.querySelectorAll('#rating-result_1812 span');
-    if(elem0fD0o60ZArray.length !== 'undefined'){
-        elem0fD0o60ZArray.forEach(function(element) {
+            <script type="text&#x2F;javascript">    var elemuwsjALrKArray = document.querySelectorAll('#rating-result_1812 span');
+    if(elemuwsjALrKArray.length !== 'undefined'){
+        elemuwsjALrKArray.forEach(function(element) {
             if (element) {
                 element.style.width = '70%';
 
@@ -248,7 +248,7 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1729676536;s:6:"expire";i:1729762936;s:4:"t
                                                                                                                                                                     <form data-role="tocart-form" data-product-sku="WT09" action="http://myproject/checkout/cart/add/uenc/aHR0cDovL215cHJvamVjdC8~/product/1812/" method="post">
                                                             <input type="hidden" name="product" value="1812">
                                                             <input type="hidden" name="uenc" value="aHR0cDovL215cHJvamVjdC9jaGVja291dC9jYXJ0L2FkZC91ZW5jL2FIUjBjRG92TDIxNWNISnZhbVZqZEM4fi9wcm9kdWN0LzE4MTIv">
-                                                            <input name="form_key" type="hidden" value="AYTnnvQ1xxQC81ez" />                                                            <button type="submit"
+                                                            <input name="form_key" type="hidden" value="HmjO3Tmv6pKMGoth" />                                                            <button type="submit"
                                                                     title="Add to Cart"
                                                                     class="action tocart primary">
                                                                 <span>Add to Cart</span>
@@ -362,7 +362,7 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1729676536;s:6:"expire";i:1729762936;s:4:"t
                                                                                                                                                                     <form data-role="tocart-form" data-product-sku="MT07" action="http://myproject/checkout/cart/add/uenc/aHR0cDovL215cHJvamVjdC8~/product/694/" method="post">
                                                             <input type="hidden" name="product" value="694">
                                                             <input type="hidden" name="uenc" value="aHR0cDovL215cHJvamVjdC9jaGVja291dC9jYXJ0L2FkZC91ZW5jL2FIUjBjRG92TDIxNWNISnZhbVZqZEM4fi9wcm9kdWN0LzY5NC8~">
-                                                            <input name="form_key" type="hidden" value="AYTnnvQ1xxQC81ez" />                                                            <button type="submit"
+                                                            <input name="form_key" type="hidden" value="HmjO3Tmv6pKMGoth" />                                                            <button type="submit"
                                                                     title="Add to Cart"
                                                                     class="action tocart primary">
                                                                 <span>Add to Cart</span>
@@ -476,7 +476,7 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1729676536;s:6:"expire";i:1729762936;s:4:"t
                                                                                                                                                                     <form data-role="tocart-form" data-product-sku="MH07" action="http://myproject/checkout/cart/add/uenc/aHR0cDovL215cHJvamVjdC8~/product/158/" method="post">
                                                             <input type="hidden" name="product" value="158">
                                                             <input type="hidden" name="uenc" value="aHR0cDovL215cHJvamVjdC9jaGVja291dC9jYXJ0L2FkZC91ZW5jL2FIUjBjRG92TDIxNWNISnZhbVZqZEM4fi9wcm9kdWN0LzE1OC8~">
-                                                            <input name="form_key" type="hidden" value="AYTnnvQ1xxQC81ez" />                                                            <button type="submit"
+                                                            <input name="form_key" type="hidden" value="HmjO3Tmv6pKMGoth" />                                                            <button type="submit"
                                                                     title="Add to Cart"
                                                                     class="action tocart primary">
                                                                 <span>Add to Cart</span>
@@ -545,9 +545,9 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1729676536;s:6:"expire";i:1729762936;s:4:"t
                  title="67%">
                 <span><span>67%</span></span>
             </div>
-            <script type="text&#x2F;javascript">    var elembCPgaFb6Array = document.querySelectorAll('#rating-result_6 span');
-    if(elembCPgaFb6Array.length !== 'undefined'){
-        elembCPgaFb6Array.forEach(function(element) {
+            <script type="text&#x2F;javascript">    var elemeJGeNLnoArray = document.querySelectorAll('#rating-result_6 span');
+    if(elemeJGeNLnoArray.length !== 'undefined'){
+        elemeJGeNLnoArray.forEach(function(element) {
             if (element) {
                 element.style.width = '67%';
 
@@ -580,7 +580,7 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1729676536;s:6:"expire";i:1729762936;s:4:"t
                                                                                                                                                                     <form data-role="tocart-form" data-product-sku="24-MB02" action="http://myproject/checkout/cart/add/uenc/aHR0cDovL215cHJvamVjdC8~/product/6/" method="post">
                                                             <input type="hidden" name="product" value="6">
                                                             <input type="hidden" name="uenc" value="aHR0cDovL215cHJvamVjdC9jaGVja291dC9jYXJ0L2FkZC91ZW5jL2FIUjBjRG92TDIxNWNISnZhbVZqZEM4fi9wcm9kdWN0LzYv">
-                                                            <input name="form_key" type="hidden" value="AYTnnvQ1xxQC81ez" />                                                            <button type="submit"
+                                                            <input name="form_key" type="hidden" value="HmjO3Tmv6pKMGoth" />                                                            <button type="submit"
                                                                     title="Add to Cart"
                                                                     class="action tocart primary">
                                                                 <span>Add to Cart</span>
@@ -649,9 +649,9 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1729676536;s:6:"expire";i:1729762936;s:4:"t
                  title="67%">
                 <span><span>67%</span></span>
             </div>
-            <script type="text&#x2F;javascript">    var elemcBABh0fQArray = document.querySelectorAll('#rating-result_14 span');
-    if(elemcBABh0fQArray.length !== 'undefined'){
-        elemcBABh0fQArray.forEach(function(element) {
+            <script type="text&#x2F;javascript">    var elemOJ5xOQhSArray = document.querySelectorAll('#rating-result_14 span');
+    if(elemOJ5xOQhSArray.length !== 'undefined'){
+        elemOJ5xOQhSArray.forEach(function(element) {
             if (element) {
                 element.style.width = '67%';
 
@@ -684,7 +684,7 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1729676536;s:6:"expire";i:1729762936;s:4:"t
                                                                                                                                                                     <form data-role="tocart-form" data-product-sku="24-WB04" action="http://myproject/checkout/cart/add/uenc/aHR0cDovL215cHJvamVjdC8~/product/14/" method="post">
                                                             <input type="hidden" name="product" value="14">
                                                             <input type="hidden" name="uenc" value="aHR0cDovL215cHJvamVjdC9jaGVja291dC9jYXJ0L2FkZC91ZW5jL2FIUjBjRG92TDIxNWNISnZhbVZqZEM4fi9wcm9kdWN0LzE0Lw~~">
-                                                            <input name="form_key" type="hidden" value="AYTnnvQ1xxQC81ez" />                                                            <button type="submit"
+                                                            <input name="form_key" type="hidden" value="HmjO3Tmv6pKMGoth" />                                                            <button type="submit"
                                                                     title="Add to Cart"
                                                                     class="action tocart primary">
                                                                 <span>Add to Cart</span>

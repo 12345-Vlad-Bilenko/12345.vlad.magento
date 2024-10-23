@@ -12,7 +12,7 @@
                 <label translate="true">Number of Products</label>
                 <description>Specify how many products to display.</description>
             </parameter>
-            <parameter name="category_id" xsi:type="select" required="true" visible="true" sort_order="2" source_model="Stagem\ProductWidget\Model\Config\Source\Category">
+            <parameter name="catid" xsi:type="select" required="true" visible="true" sort_order="2" source_model="Stagem\ProductWidget\Model\Config\Source\Category">
                 <label translate="true">Category</label>
                 <description>Select the category of products.</description>
             </parameter>
