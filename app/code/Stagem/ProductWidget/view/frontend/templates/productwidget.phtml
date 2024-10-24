@@ -5,37 +5,37 @@ $categoryId = $block->getCategoryId();
 
 <style>
     .product-widget-container {
-        border: 2px solid #ccc; /* Бордер для всього блоку */
+        border: 2px solid #ccc;
         padding: 20px;
-        margin: 20px 0; /* Відступи зверху та знизу */
-        background-color: #f9f9f9; /* Колір фону блоку */
+        margin: 20px 0;
+        background-color: #f9f9f9;
     }
 
     .product-widget-container ul {
         list-style-type: none;
         padding: 0;
         display: flex;
-        flex-wrap: wrap; /* Дозволяє переносити елементи */
-        justify-content: space-between; /* Розподіл товарів по ширині */
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .product-widget-container li {
-        border: 1px solid #ddd; /* Бордер для кожного товару */
-        border-radius: 5px; /* Закруглені кути */
+        border: 1px solid #ddd;
+        border-radius: 5px;
         margin: 10px;
         padding: 15px;
-        width: calc(20% - 20px); /* 5 товарів в ряд, враховуючи відступи */
-        box-sizing: border-box; /* Включає відступи в ширину */
-        transition: transform 0.3s ease, background-color 0.3s ease; /* Анімація */
+        width: calc(20% - 20px);
+        box-sizing: border-box;
+        transition: transform 0.3s ease, background-color 0.3s ease;
     }
 
     .product-widget-container li:hover {
-        transform: scale(1.05); /* Збільшення */
-        background-color: #e0f7fa; /* Зміна кольору фону при наведенні */
+        transform: scale(1.05);
+        background-color: #e0f7fa;
     }
 
     .product-widget-container img {
-        max-width: 100%; /* Ширина зображення */
+        max-width: 100%;
         height: auto;
     }
 
@@ -44,50 +44,42 @@ $categoryId = $block->getCategoryId();
     }
 
     .product-widget-container form {
-        display: flex; /* Вирівнюємо елементи всередині форми */
-        justify-content: center; /* Центруємо кнопку */
-        margin-top: 10px; /* Відступ зверху */
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
     }
 
     .product-widget-container button {
-        background-color: #28a745; /* Колір фону кнопки */
-        color: white; /* Колір тексту */
-        border: none; /* Без бордера */
-        border-radius: 5px; /* Закруглені кути кнопки */
-        padding: 10px 15px; /* Внутрішні відступи */
-        cursor: pointer; /* Курсор при наведенні */
-        transition: background-color 0.3s ease; /* Плавна зміна кольору */
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 15px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
     }
 
     .product-widget-container button:hover {
-        background-color: #218838; /* Темніший зелений при наведенні */
+        background-color: #218838;
     }
 </style>
-
-
-<p>Selected Category ID: <?php echo $categoryId; ?>!!!</p>
 
 <div class="product-widget-container">
     <?php if (!empty($collection) && count($collection) > 0): ?>
         <ul>
             <?php foreach ($collection as $product): ?>
                 <li>
-                    <a href="<?php $prodhtml=$product->getProductUrl(); echo $product->getProductUrl(); ?>">
+                    <a href="<?php echo $product->getProductUrl(); ?>">
                         <?php echo $product->getName(); ?>
                     </a>
 
-                    <?php if ($product->getImageUrl()): ?>
-                        <img src="<?php $imghtml=$product->getImageUrl(); echo $product->getImageUrl(); ?>" alt="<?php echo $product->getName(); ?>">
-                    <?php endif; ?>
                     <?php
-// Виводимо інформацію про продукт і зображення, якщо вони існують
-$productOutput = isset($producthtml) ? $producthtml : 'No product info';
-$imageOutput = isset($imghtml) ? $imghtml : 'No image available';
-?>
-
-<p style="background-color: #28a745; color: white; padding: 10px; border-radius: 5px;">
-    <?php echo $productOutput; ?> +++ <?php echo $imageOutput; ?>
-</p>
+                    // Получаем URL изображения из класса
+                    $imageUrl = $product->getData('image_url');
+                    ?>
+                    <?php if ($imageUrl): ?>
+                        <img src="<?php echo $imageUrl; ?>" alt="<?php echo $product->getName(); ?>">
+                    <?php endif; ?>
 
                     <p><?php echo number_format($product->getPrice(), 2, '.', ' '); ?> $</p>
 
@@ -114,10 +106,4 @@ $imageOutput = isset($imghtml) ? $imghtml : 'No image available';
     <?php else: ?>
         <p>No products found in this category.</p>
     <?php endif; ?>
-    
-    
-
-
-
 </div>
-
