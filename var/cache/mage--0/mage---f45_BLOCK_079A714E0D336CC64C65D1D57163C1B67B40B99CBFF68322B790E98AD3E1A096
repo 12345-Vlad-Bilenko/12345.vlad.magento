@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1729779432;s:6:"expire";i:1729865832;s:4:"tags";s:116:"f45_CAT_P,f45_BLOCK_HTML,f45_CAT_P_1556,f45_CAT_P_1812,f45_CAT_P_694,f45_CAT_P_158,f45_CAT_P_6,f45_CAT_P_14,f45_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1729780642;s:6:"expire";i:1729867042;s:4:"tags";s:116:"f45_CAT_P,f45_BLOCK_HTML,f45_CAT_P_1556,f45_CAT_P_1812,f45_CAT_P_694,f45_CAT_P_158,f45_CAT_P_6,f45_CAT_P_14,f45_MAGE";}
         <div class="block widget block-products-list grid">
                 <div class="block-content">
             <!-- new_products_content_widget_grid-->            <div class="products-grid grid">
@@ -43,9 +43,9 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1729779432;s:6:"expire";i:1729865832;s:4:"t
                  title="60%">
                 <span><span>60%</span></span>
             </div>
-            <script type="text&#x2F;javascript">    var elemJfEtPwvCArray = document.querySelectorAll('#rating-result_1556 span');
-    if(elemJfEtPwvCArray.length !== 'undefined'){
-        elemJfEtPwvCArray.forEach(function(element) {
+            <script type="text&#x2F;javascript">    var elemZXtq80pEArray = document.querySelectorAll('#rating-result_1556 span');
+    if(elemZXtq80pEArray.length !== 'undefined'){
+        elemZXtq80pEArray.forEach(function(element) {
             if (element) {
                 element.style.width = '60%';
 
@@ -180,9 +180,9 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1729779432;s:6:"expire";i:1729865832;s:4:"t
                  title="70%">
                 <span><span>70%</span></span>
             </div>
-            <script type="text&#x2F;javascript">    var elem6xXpkzT0Array = document.querySelectorAll('#rating-result_1812 span');
-    if(elem6xXpkzT0Array.length !== 'undefined'){
-        elem6xXpkzT0Array.forEach(function(element) {
+            <script type="text&#x2F;javascript">    var elemIM3jRWlNArray = document.querySelectorAll('#rating-result_1812 span');
+    if(elemIM3jRWlNArray.length !== 'undefined'){
+        elemIM3jRWlNArray.forEach(function(element) {
             if (element) {
                 element.style.width = '70%';
 
@@ -545,9 +545,9 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1729779432;s:6:"expire";i:1729865832;s:4:"t
                  title="67%">
                 <span><span>67%</span></span>
             </div>
-            <script type="text&#x2F;javascript">    var elem0SptygdvArray = document.querySelectorAll('#rating-result_6 span');
-    if(elem0SptygdvArray.length !== 'undefined'){
-        elem0SptygdvArray.forEach(function(element) {
+            <script type="text&#x2F;javascript">    var elemLcE3qfNjArray = document.querySelectorAll('#rating-result_6 span');
+    if(elemLcE3qfNjArray.length !== 'undefined'){
+        elemLcE3qfNjArray.forEach(function(element) {
             if (element) {
                 element.style.width = '67%';
 
@@ -649,9 +649,9 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1729779432;s:6:"expire";i:1729865832;s:4:"t
                  title="67%">
                 <span><span>67%</span></span>
             </div>
-            <script type="text&#x2F;javascript">    var elemnGTi5JaYArray = document.querySelectorAll('#rating-result_14 span');
-    if(elemnGTi5JaYArray.length !== 'undefined'){
-        elemnGTi5JaYArray.forEach(function(element) {
+            <script type="text&#x2F;javascript">    var elem3nnK80DYArray = document.querySelectorAll('#rating-result_14 span');
+    if(elem3nnK80DYArray.length !== 'undefined'){
+        elem3nnK80DYArray.forEach(function(element) {
             if (element) {
                 element.style.width = '67%';
 
