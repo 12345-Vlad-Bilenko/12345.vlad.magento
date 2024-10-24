@@ -1,0 +1,6 @@
+.product-widget-container {
+    background-color: red; /* Красный фон */
+    padding: 20px; /* Отступы для лучшего визуального восприятия */
+    border-radius: 5px; /* Закругленные углы */
+    color: white; /* Цвет текста */
+}

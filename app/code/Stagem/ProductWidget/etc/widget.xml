@@ -10,7 +10,12 @@
             </parameter>
             <parameter name="product_count" xsi:type="text" required="true" visible="true" sort_order="1">
                 <label translate="true">Number of Products</label>
-                <description>Specify how many products to display.</description>
+                <comment>The number of products must be between 1 and 40.</comment>
+                <validation>
+                    <rule name="min" xsi:type="number">1</rule>
+                    <rule name="max" xsi:type="number">40</rule>
+                </validation>
+                <description>Specify how many products to display (1-40)</description>
             </parameter>
             <parameter name="catid" xsi:type="select" required="true" visible="true" sort_order="2" source_model="Stagem\ProductWidget\Model\Config\Source\Category">
                 <label translate="true">Category</label>

@@ -9,18 +9,8 @@ use Magento\Catalog\Model\CategoryRepository;
 
 class ProductWidget extends Template implements BlockInterface
 {
-    protected $productCollectionFactory;
-    protected $categoryRepository;
-
-    public function getCategoryId()
-    {
-        return (int)$this->getData('catid');
-    }
-
-    public function getProductCount()
-    {
-        return (int)$this->getData('product_count');
-    }
+    protected CollectionFactory $productCollectionFactory;
+    protected CategoryRepository $categoryRepository;
 
     public function __construct(
         Template\Context $context,
@@ -30,26 +20,46 @@ class ProductWidget extends Template implements BlockInterface
     ) {
         $this->productCollectionFactory = $productCollectionFactory;
         $this->categoryRepository = $categoryRepository;
+
         parent::__construct($context, $data);
         $this->setTemplate('Stagem_ProductWidget::productwidget.phtml');
     }
 
-    public function getProductCollection()
+    public function getCategoryId(): int
+    {
+        return (int)$this->getData('catid');
+    }
+
+    public function getProductCount(): int
+    {
+        $productCount = (int)$this->getData('product_count');
+
+        if ($productCount < 1) {
+            $productCount = 1;
+        }
+        if ($productCount > 40) {
+            $productCount = 40;
+        }
+
+        return $productCount;
+    }
+
+    public function getProductCollection(): array
     {
         $collection = $this->productCollectionFactory->create();
-        
-        $categoryId = $this->getCategoryId();
 
         try {
+            $categoryId = $this->getCategoryId(); // Сохраняем результат в переменную
             $category = $this->categoryRepository->get($categoryId);
+            
             $collection->addAttributeToSelect('*')
                        ->addCategoryFilter($category)
                        ->setPageSize($this->getProductCount())
                        ->setOrder('price', 'DESC');
-        } catch (\Magento\Framework\Exception\NoSuchEntityException $e) {
-            return null; 
-        }
 
-        return $collection;
+            return $collection->getItems();
+        } catch (\Magento\Framework\Exception\NoSuchEntityException $e) {
+            return [];
+        }
     }
 }
